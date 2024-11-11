@@ -152,6 +152,7 @@ $$
 * 高准确率 表示模型能够高效、精准地识别出评论中的出版物名称。
 * 低准确率 可能表明模型在理解文本内容、区分相关信息或提取出版物名称方面存在困难。
 因此，本次评测的主要目标是优化模型的准确性，以提高其在实际应用中的性能，尤其是在中文文学评论数据的自动化信息抽取任务中。
+---
 
 ### 2.3古代文学知识理解(ACLUE)
 
@@ -221,11 +222,11 @@ pip install -e .[multilingual]
 ```
 
 
-#### Automated Task Assessment
+#### 自动化任务评测
 
 在评估之前，请下载[BART模型检查点](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)到'src/metrics/BARTScore/bart_score.pth'。
 
-对于自动化评估，请按照以下步骤操作：
+对于自动化评测，请按照以下步骤操作：
 
 1. Huggingface Transformer
 
@@ -259,24 +260,7 @@ python eval.py \
 本次评测将设置一、二、三等奖，中文信息学将会为本次评测获奖队伍提供荣誉证书。
 
 
-## License
 
-CLLLM is licensed under [MIT]. For more details, please see the [MIT](LICENSE) file.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=chancefocus/pixiu&type=Date)](https://star-history.com/#chancefocus/pixiu&Date)
-
-
-
------------------
-
-
-**免责声明**
-
-本资料库及其内容仅用于**学术和教育目的**。所有资料均不构成金融、法律或投资建议。不对内容的准确性、完整性或实用性提供任何明示或暗示的保证。作者和撰稿人不对任何错误、遗漏或因使用本网站信息而产生的任何后果负责。用户在做出任何财务、法律或投资决定之前，应自行判断并咨询专业人士。使用本资料库所含软件和信息的风险完全由用户自行承担。
-
-**使用或访问本资源库中的信息，即表示您同意对作者、撰稿人以及任何附属组织或个人的任何及所有索赔或损害进行赔偿、为其辩护并使其免受损害。**
 
 
 
