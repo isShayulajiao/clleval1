@@ -37,6 +37,7 @@
 ## 评测组织者
 * 胡刚（hugang@ynu.edu.cn），云南大学  
 
+
 ## 联系人及联系方式
 * 王康，云南大学硕士研究生(wangkang1@stu.ynu.edu.cn)
 
@@ -95,7 +96,7 @@
 
 
 
-**评测数据集** :
+*评测数据集* :
 
 - [clleval (clleval_aclue)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
 - [clleval_(clleval_author_2_class)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
