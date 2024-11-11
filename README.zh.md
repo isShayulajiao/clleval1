@@ -1,6 +1,4 @@
-<p align="center" width="100%">
-<img src="https://i.postimg.cc/xTpWgq3L/pixiu-logo.png"  width="100%" height="100%">
-</p>
+# 2025 CCL25-clleval     面向中国文学领域的大语言模型性能评测基准
 
 <div>
 <div align="left">
@@ -21,8 +19,6 @@
     <img src='https://i.postimg.cc/NjKhDkGY/DFAF986-CCD6529-E52-D7830-F180-D-C37-C7-DEE-4340.png' alt='Sichuan University Logo' height='100px'>&emsp;
 </div>
 
-
-# 2025 CCL25-clleval     面向中国文学领域的大语言模型性能评测基准
 
 ## 评测组织者
 * 胡刚（hugang@ynu.edu.cn），云南大学  
