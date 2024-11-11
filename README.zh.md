@@ -85,20 +85,19 @@ clleval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 |:-------:|:--------------------------------:|:----------:|:-------:|:-----------:|:-----:|:----------:|:--------:|
 |   OA1   |             现代文学批评倾向             |    现代文     |  1,014  |     829     |  829  |            |        |
 |   OA2   |             现代文学批评挖掘             |    现代文     |  1,014  |     141     |  141  |            |        |
-|  ACLUE  |             古代文学知识理解             |    文言文     | 49,660  |   49,660    | 2,000 |    MIT     | [3]    |
-|   cft   |              文学阅读理解              |    现代文     | 29,013  |   29,013    | 2,000 | CC-BY-SA-4.0 | [4]    |
-| NER_re  |              文学语言理解              |    现代文     | 28,894  |   27,864    | 2,750 |   Public   | [5]    |
-| author  |             文学作品风格预测             |    现代文     | 30,324  |   30,324    | 2,000 |   Public   | [5]    |
+|  ACLUE  |             古代文学知识理解             |    文言文     | 49,660  |   49,660    | 2,000 |    MIT     | [1]    |
+|   cft   |              文学阅读理解              |    现代文     | 29,013  |   29,013    | 2,000 | CC-BY-SA-4.0 | [2]    |
+| NER_re  |              文学语言理解              |    现代文     | 28,894  |   27,864    | 2,750 |   Public   | [3]    |
+| author  |             文学作品风格预测             |    现代文     | 30,324  |   30,324    | 2,000 |   Public   | [4]    |
 |  tsla   |             文学语言风格转换             |    文言文     | 972,467 |   972,467   | 2,000 |   MIT   | [5]    |
 
 
-1. 
-2. 
-3. https://github.com/isen-zhang/ACLUE
-4. Cui, Y., Liu, T., Chen, Z., Wang, S., & Hu, G. (2016). Consensus attention-based neural networks for Chinese reading comprehension. arXiv preprint arXiv:1607.02250.
-5. Xu, J., Wen, J., Sun, X., & Su, Q. (2017). A discourse-level named entity recognition and relation extraction dataset for chinese literature text. arXiv preprint arXiv:1711.07010.
-6. https://blog.csdn.net/zcp0216/article/details/122063405?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170159041816800192270328%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=170159041816800192270328&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-2-122063405-null-null.nonecase&utm_term=%E4%B8%AD%E6%96%87%E6%96%87%E5%AD%A6%E6%95%B0%E6%8D%AE%E9%9B%86&spm=1018.2226.3001.4450
-7. https://github.com/NiuTrans/Classical-Modern
+
+1. https://github.com/isen-zhang/ACLUE
+2. Cui, Y., Liu, T., Chen, Z., Wang, S., & Hu, G. (2016). Consensus attention-based neural networks for Chinese reading comprehension. arXiv preprint arXiv:1607.02250.
+3. Xu, J., Wen, J., Sun, X., & Su, Q. (2017). A discourse-level named entity recognition and relation extraction dataset for chinese literature text. arXiv preprint arXiv:1711.07010.
+4. https://blog.csdn.net/zcp0216/article/details/122063405?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170159041816800192270328%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=170159041816800192270328&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-2-122063405-null-null.nonecase&utm_term=%E4%B8%AD%E6%96%87%E6%96%87%E5%AD%A6%E6%95%B0%E6%8D%AE%E9%9B%86&spm=1018.2226.3001.4450
+5. https://github.com/NiuTrans/Classical-Modern
 
 ### 2.1现代文学批评倾向(OA1)
 
@@ -201,7 +200,7 @@ $$
 ## 3模型评测
 
 
-### 本地部署
+#### 本地部署
 ```bash
 git clone https://github.com/chancefocus/PIXIU.git --recursive
 cd CLLLM
@@ -212,9 +211,10 @@ pip install -e .[multilingual]
 
 
 #### Automated Task Assessment
-Before evaluation, please download [BART checkpoint](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download) to `src/metrics/BARTScore/bart_score.pth`.
 
-For automated evaluation, please follow these instructions:
+在评估之前，请下载[BART模型检查点](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)到'src/metrics/BARTScore/bart_score.pth'。
+
+对于自动化评估，请按照以下步骤操作：
 
 1. Huggingface Transformer
 
@@ -226,7 +226,7 @@ python src/eval.py \
     --tasks flare_oa2 \
     --model_args use_accelerate=True,pretrained=Qwen/Qwen2-7B,tokenizer=Qwen/Qwen2-7B,max_gen_toks=1024,use_fast=False,dtype=float16,trust_remote_code=True 
 ```
-
+各模型使用的model参数如下表所示：
 
 
 2. 商业API
