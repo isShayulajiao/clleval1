@@ -13,22 +13,12 @@
 <div align="left">
     <sup>1</sup>Yunan University&emsp;
     <sup>5</sup>Wuhan University&emsp;
-    <sup>2</sup>Sun Yat-Sen University&emsp;
     <sup>3</sup>Sichuan University&emsp;
-    <sup>4</sup>Southwest Jiaotong University&emsp;
-    <sup>6</sup>University of Florida&emsp;
-    <sup>7</sup>New York University&emsp;
-  <sup>8</sup>ChanceFocus AMC.
 </div>
 <div align="left">
     <img src='https://i.postimg.cc/DfB8jxV1/ynu.png' alt='Yunnan University Logo' height='100px'>&emsp;
     <img src='https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png' alt='Wuhan University Logo' height='100px'>&emsp;
-    <img src='https://i.postimg.cc/C1XnZNK1/Sun-Yat-sen-University-Logo.png' alt='Sun Yat-Sen University Logo' height='100px'>&emsp;
-    <img src='https://i.postimg.cc/vTHJdYxN/NYU-Logo.png' alt='New York University' height='100px'>&emsp;
     <img src='https://i.postimg.cc/NjKhDkGY/DFAF986-CCD6529-E52-D7830-F180-D-C37-C7-DEE-4340.png' alt='Sichuan University Logo' height='100px'>&emsp;
-    <img src='https://i.postimg.cc/k5WpYj0r/SWJTULogo.png' alt='Southwest Jiaotong University Logo' height='100px'>&emsp;
-    <img src='https://i.postimg.cc/XY1s2RHD/University-of-Florida-Logo-1536x864.jpg' alt='University of Florida Logo' height='100px'>&emsp;
-    <img src='https://i.postimg.cc/xTsgsrqN/logo11.png' alt='ChanceFocus AMC Logo' height='100px'>
 </div>
 
 
