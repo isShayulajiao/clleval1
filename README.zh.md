@@ -199,10 +199,10 @@ $$
 | tsla | 2,000 |    BERTScore-F1,BARTScore    |
 
 
-## 3 模型评测
+## 模型评测
 
 
-## 本地部署
+### 本地部署
 ```bash
 git clone https://github.com/chancefocus/PIXIU.git --recursive
 cd CLLLM
