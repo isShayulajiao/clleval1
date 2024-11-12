@@ -159,7 +159,7 @@ F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \t
 - **高Macro F1值** 表明模型在不同情感类别上都具备稳定的识别能力。
 - **低Macro F1值** 则可能说明模型在部分情感类别上表现不佳，表现出类别间的偏差。
 
-<hr style="border-top: 0.25px solid #ccc;">
+<hr style="border-top: 0.1px solid #ccc;">
 
 
 ### **MCC（(Matthews Correlation Coefficient）**
