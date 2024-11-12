@@ -268,7 +268,7 @@ python src/eval.py \
 各模型使用的model参数如下表所示：
 
 | Model                   | model 参数       |
-|：-------------------------：|：------------------：|
+|:-------------------------:|:------------------:|
 | bloomz_7b1              | hf-causal-vllm   |
 | Baichuan-7B             | hf-causal-llama  |
 | Llama-2-7b-hf           | hf-causal-llama  |
