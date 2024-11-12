@@ -131,9 +131,9 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 
 **F1 值** 计算公式如下：
 
-\[
+$$
 F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-\]
+$$
 
 在情感倾向分析中，F1 值帮助评估模型识别特定情感（如正面或负面）的精度和完整性。较高的 F1 值表明模型不仅能够准确地识别情感类型，还能覆盖尽可能多的情感样本。
 
@@ -146,9 +146,9 @@ F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \t
 
 **Macro F1** 计算公式为：
 
-\[
+$$
 \text{Macro F1} = \frac{1}{N} \sum_{i=1}^N F1_i
-\]
+$$
 
 在现代文学批评向任务中，Macro F1用于观察模型在各类情感（如积极、消极、中性）上的表现是否均衡。
 
@@ -162,9 +162,9 @@ F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \t
 
 **MCC** 计算公式如下：
 
-\[
+$$
 MCC = \frac{TP \times TN - FP \times FN}{\sqrt{(TP + FP)(TP + FN)(TN + FP)(TN + FN)}}
-\]
+$$
 
 在情感倾向分析中，MCC 评估模型对各情感类别的平衡性。相比其他指标，MCC 能更有效地反映模型在复杂情感分析任务中的稳定性和整体适应性。
 
