@@ -228,7 +228,7 @@ $$
 |:--------:|:-----:|:-------------------:|
 |   OA1    |  829  |         ACC         |
 |   OA2    |  141  | ACC,F1,macro-F1,mcc |
-|  ACLUE   | 2,000 |         MIT         |
+|  ACLUE   | 2,000 |         ACC,F1,macro-F1,mcc         |
 |  cft  | 2,000 |         ACC         |
 |  NER_re  | 2,750 |      entity_f1      |
 | author | 2,000 | ACC,F1,macro-F1,mcc |
@@ -266,6 +266,19 @@ python src/eval.py \
     --model_args use_accelerate=True,pretrained=Qwen/Qwen2-7B,tokenizer=Qwen/Qwen2-7B,max_gen_toks=1024,use_fast=False,dtype=float16,trust_remote_code=True 
 ```
 各模型使用的model参数如下表所示：
+
+| Model                   | model 参数       |
+|：-------------------------：|：------------------：|
+| bloomz_7b1              | hf-causal-vllm   |
+| Baichuan-7B             | hf-causal-llama  |
+| Llama-2-7b-hf           | hf-causal-llama  |
+| Baichuan2-7B-Base       | hf-causal-vllm   |
+| Qwen-7B                 | hf-causal-vllm   |
+| Xunzi-Qwen1.5-7B        | hf-causal-vllm   |
+| Qwen1.5-7B              | hf-causal-vllm   |
+| internlm2-7b            | hf-causal-vllm   |
+| Llama-3-8B              | hf-causal-vllm   |
+| Qwen2-7B                | hf-causal-vllm   |
 
 
 2. 商业API
