@@ -170,7 +170,7 @@ $$
 \text{MCC} = \frac{\sum_{k=1}^{K} \sum_{l=1}^{K} \sum_{m=1}^{K} C_{kk} \cdot C_{lm} - C_{kl} \cdot C_{mk}}{\sqrt{\left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{kl}\right) \cdot \left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{lk}\right) \cdot \left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{kl}\right) \cdot \left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{lk}\right)}}
 $$
 
-### 公式符号解释
+**公式符号解释**
 
 - **\( K \)**：类别数（例如，二分类时 \( K = 2 \)，三分类时 \( K = 3 \) 等）。
 - **\( C_{kk} \)**：混淆矩阵的对角线元素，表示模型正确分类为第 \( k \) 类的样本数（即真阳性数）。
