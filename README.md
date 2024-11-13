@@ -267,7 +267,9 @@ python src/eval.py \
     --tasks flare_oa2 \
     --model_args use_accelerate=True,pretrained=Qwen/Qwen2-7B,tokenizer=Qwen/Qwen2-7B,max_gen_toks=1024,use_fast=False,dtype=float16,trust_remote_code=True 
 ```
+
 各模型使用的model参数如下表所示：
+
 
 | Model                   | model 参数       |
 |:-------------------------:|:------------------:|
@@ -283,7 +285,7 @@ python src/eval.py \
 | Qwen2-7B                | hf-causal-vllm   |
 
 
-2. 商业API
+2. API
 
 ```bash
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
@@ -369,6 +371,8 @@ $$\text{任务得分} = \frac{\sum_{j=1}^{m} \text{指标得分}_j}{m}$$
 ## 8 奖项设置
 
 本次评测将设置一、二、三等奖，中文信息学将会为本次评测获奖队伍提供荣誉证书。
+
+---
 
 
 
