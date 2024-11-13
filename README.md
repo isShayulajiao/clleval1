@@ -1,4 +1,4 @@
-# 2025 CCL25-CLLEval     面向中国文学领域的大语言模型性能评测基准
+# 2025 CCL25-CLLEval 面向中国文学领域的大语言模型性能评测基准
 
 <div>
 <div align="left">
