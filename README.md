@@ -116,7 +116,7 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 
 ### 数据样例
 现代文学批评倾向评测任务提供了JSON格式的数据。以下为相应的数据样例：
-![现代文学批评挖掘](https://github.com/isShayulajiao/CLLEval/blob/main/oa2.jpg)
+![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/oa2.jpg)
 
 
 ### 评价指标
@@ -189,7 +189,7 @@ $$
 
 ### 数据样例
 现代文学批评挖掘评测任务提供了JSON格式的数据。以下为相应的数据样例：
-![现代文学批评挖掘](https://github.com/isShayulajiao/CLLEval/blob/main/oa1.png)
+![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/oa1.png)
 
 ### 评价指标
 
