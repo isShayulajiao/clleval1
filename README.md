@@ -244,7 +244,7 @@ $$
 
 #### 本地部署
 ```bash
-git clone https://github.com/chancefocus/PIXIU.git --recursive
+git clone https://github.com/isShayulajiao/clleval1.git
 cd CLLLM
 pip install -r requirements.txt
 cd PIXIU/src/literature-evaluation
