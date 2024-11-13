@@ -194,7 +194,7 @@ $$
 
 ### 数据样例
 现代文学批评挖掘评测任务提供了JSON格式的数据。以下为相应的数据样例：
-![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/oa1.png)
+![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/oa1.jpg)
 
 ### 评价指标
 
