@@ -291,6 +291,10 @@ python eval.py \
     --model gpt-3.5-turbo \
     --tasks clleval_aclue,clleval_author_2_class,clleval_oa
 ```
+
+---
+
+
 ## 5 结果提交
 
 参赛队伍在测试集上参与评测，结果集使用ccleval评测框架最终生成的数据格式。
