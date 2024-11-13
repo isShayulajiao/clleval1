@@ -167,8 +167,15 @@ $$
 **MCC** 计算公式如下：
 
 $$
-MCC = \frac{TP_P \cdot TP_N \cdot TP_U - FP_PN \cdot FN_PN - FP_PU \cdot FN_PU - FP_NU \cdot FN_NU}{\sqrt{(TP_P + FP_PN + FP_PU)(TP_P + FN_PN + FP_PN)(TP_N + FP_PN + FP_NU)(TP_N + FN_NU + FP_NU)(TP_U + FP_PU + FP_NU)(TP_U + FN_PU + FN_NU)}}
+\text{MCC} = \frac{\sum_{k=1}^{K} \sum_{l=1}^{K} \sum_{m=1}^{K} C_{kk} \cdot C_{lm} - C_{kl} \cdot C_{mk}}{\sqrt{\left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{kl}\right) \cdot \left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{lk}\right) \cdot \left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{kl}\right) \cdot \left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{lk}\right)}}
 $$
+
+### 公式符号解释
+
+- **\( K \)**：类别数（例如，二分类时 \( K = 2 \)，三分类时 \( K = 3 \) 等）。
+- **\( C_{kk} \)**：混淆矩阵的对角线元素，表示模型正确分类为第 \( k \) 类的样本数（即真阳性数）。
+- **\( C_{kl} \)**：第 \( k \) 类被误分类为第 \( l \) 类的样本数（即第 \( k \) 类的假阳性数）。
+- **\( C_{lm} \)** 和 **\( C_{mk} \)**：分别表示第 \( l \) 类和第 \( m \) 类之间的交叉误分类数，用于多分类任务的误分类计数。
 
 在情感倾向分析中，MCC 评估模型对各情感类别的平衡性。相比其他指标，MCC 能更有效地反映模型在复杂情感分析任务中的稳定性和整体适应性。
 
