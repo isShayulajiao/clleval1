@@ -161,7 +161,7 @@ $$
 - **低Macro F1值** 则可能说明模型在部分情感类别上表现不佳，表现出类别间的偏差。
 
 
-### **MCC(Matthews Correlation Coefficient）**
+### **MCC（Matthews Correlation Coefficient，马修斯相关系数）**
 **MCC** 是一种全面的二分类指标，在情感分析中适合处理类别不均衡的数据，尤其适用于区分明显的正面与负面情感的任务。
 
 **MCC** 计算公式如下：
