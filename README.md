@@ -1,4 +1,4 @@
-# 2025 CCL25-clleval     面向中国文学领域的大语言模型性能评测基准
+# 2025 CCL25-CLLEval     面向中国文学领域的大语言模型性能评测基准
 
 <div>
 <div align="left">
@@ -72,13 +72,13 @@
 
 **评测数据集** :
 
-- [clleval (clleval_aclue)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
-- [clleval_(clleval_author_2_class)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
-- [clleval (clleval_oa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
-- [clleval (clleval_oa2)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
-- [clleval (clleval_cft)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
-- [clleval (clleval_ner_re)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
-- [clleval (clleval_tsla)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
+- [CLLEval (CLLEval_aclue)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
+- [CLLEval_(CLLEval_author_2_class)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
+- [CLLEval (CLLEval_oa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
+- [CLLEval (CLLEval_oa2)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
+- [CLLEval (CLLEval_cft)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
+- [CLLEval (CLLEval_ner_re)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
+- [CLLEval (CLLEval_tsla)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
 
 
 ---
@@ -116,7 +116,7 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 
 ### 数据样例
 现代文学批评倾向评测任务提供了JSON格式的数据。以下为相应的数据样例：
-![现代文学批评挖掘](https://github.com/isShayulajiao/clleval1/blob/main/oa2.jpg)
+![现代文学批评挖掘](https://github.com/isShayulajiao/CLLEval/blob/main/oa2.jpg)
 
 
 ### 评价指标
@@ -189,7 +189,7 @@ $$
 
 ### 数据样例
 现代文学批评挖掘评测任务提供了JSON格式的数据。以下为相应的数据样例：
-![现代文学批评挖掘](https://github.com/isShayulajiao/clleval1/blob/main/oa1.png)
+![现代文学批评挖掘](https://github.com/isShayulajiao/CLLEval/blob/main/oa1.png)
 
 ### 评价指标
 
@@ -243,7 +243,7 @@ $$
 
 #### 本地部署
 ```bash
-git clone https://github.com/isShayulajiao/clleval1.git
+git clone https://github.com/isShayulajiao/CLLEval1.git
 cd CLLLM
 pip install -r requirements.txt
 cd PIXIU/src/literature-evaluation
@@ -291,7 +291,7 @@ python src/eval.py \
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
 python eval.py \
     --model gpt-3.5-turbo \
-    --tasks clleval_aclue,clleval_author_2_class,clleval_oa
+    --tasks CLLEval_aclue,CLLEval_author_2_class,CLLEval_oa
 ```
 
 ---
