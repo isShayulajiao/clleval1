@@ -315,6 +315,13 @@ metrics_Avg.xlsx
 3. metrics.xlsx和metrics_Avg.xlsx文件填写示例，请在[这里](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)下载
 本次评测结果集采用邮件方式进行提交。参赛队伍负责人以**队伍名称 + CCL2025-CLLEval2025结果提交**为邮件标题，将结果文件直接发送到 **wangkang1@stu.ynu.edu.cn** ，以提交时间截止前您的最后一次提交结果为准。
 
+### 排名
+
+1. 所有评测任务均采用百分制分数显示，小数点后保留2位。
+2. 排名取各项任务得分的平均值，即： 
+$${\rm{task\_score=0.3*task1\_acc+0.3*task2\_f1+0.4*task3\_f1}} $$
+4. 如果某项任务未提交，默认分数为0，仍参与到系统最终得分的计算。
+
 ## 6 奖项设置
 
 本次评测将设置一、二、三等奖，中文信息学将会为本次评测获奖队伍提供荣誉证书。
