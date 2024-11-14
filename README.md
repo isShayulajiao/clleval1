@@ -65,13 +65,13 @@
 
 **评测数据集** :
 
-- [CLLEval (CLLEval_aclue)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
-- [CLLEval_(CLLEval_author_2_class)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
-- [CLLEval (CLLEval_oa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
-- [CLLEval (CLLEval_oa2)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
-- [CLLEval (CLLEval_cft)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
-- [CLLEval (CLLEval_ner_re)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
-- [CLLEval (CLLEval_tsla)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
+- [CLLEval (CLLEval_CritBias)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
+- [CLLEval_(CLLEval_CritPred)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
+- [CLLEval (CLLEval_ACLUE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
+- [CLLEval (CLLEval_ReadCom)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
+- [CLLEval (CLLEval_LitNRE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
+- [CLLEval (CLLEval_AuthIDE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
+- [CLLEval (CLLEval_ClaTrans)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
 
 
 ---
@@ -83,13 +83,13 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 
 |  Data   |               Task               | Text Types |   Raw   | Instruction | Test  |  License   | Source |
 |:-------:|:--------------------------------:|:----------:|:-------:|:-----------:|:-----:|:----------:|:--------:|
-|   OA2   |             现代文学批评倾向             |    现代文     |  1,014  |     141    |  141  |            |        |
-|   OA1   |             现代文学批评挖掘             |    现代文     |  1,014  |     829     |  829  |            |        |
+|   CritBias   |             现代文学批评倾向             |    现代文     |  1,014  |     141    |  141  |            |        |
+|   CritPred   |             现代文学批评挖掘             |    现代文     |  1,014  |     829     |  829  |            |        |
 |  ACLUE  |             古代文学知识理解             |    文言文     | 49,660  |   49,660    | 2,000 |    MIT     | [1]    |
-|   cft   |              文学阅读理解              |    现代文     | 29,013  |   29,013    | 2,000 | CC-BY-SA-4.0 | [2]    |
-| NER_re  |              文学语言理解              |    现代文     | 28,894  |   27,864    | 2,750 |   Public   | [3]    |
-| author  |             文学作品风格预测             |    现代文     | 30,324  |   30,324    | 2,000 |   Public   | [4]    |
-|  tsla   |             文学语言风格转换             |    文言文     | 972,467 |   972,467   | 2,000 |   MIT   | [5]    |
+|   ReadCom   |              文学阅读理解              |    现代文     | 29,013  |   29,013    | 2,000 | CC-BY-SA-4.0 | [2]    |
+| LitNRE  |              文学语言理解              |    现代文     | 28,894  |   27,864    | 2,750 |   Public   | [3]    |
+| AuthIDE  |             文学作品风格预测             |    现代文     | 30,324  |   30,324    | 2,000 |   Public   | [4]    |
+|  ClaTrans   |             文学语言风格转换             |    文言文     | 972,467 |   972,467   | 2,000 |   MIT   | [5]    |
 
 
 
@@ -244,9 +244,9 @@ $$
 #### 本地部署
 ```bash
 git clone https://github.com/isShayulajiao/CLLEval1.git
-cd CLLLM
+cd CLLEval
 pip install -r requirements.txt
-cd PIXIU/src/literature-evaluation
+cd CLLEval/src/literature-evaluation
 pip install -e .[multilingual]
 ```
 
@@ -367,6 +367,7 @@ $$\text{任务得分} = \frac{\sum_{j=1}^{m} \text{指标得分}_j}{m}$$
 ## 7 报名提交方式及申请本次评测语料使用权
 
 点击报名链接填写报名表 https://f.kdocs.cn/g/aYC93cfz/ 进行报名，我们会发送邮件确认您已经参赛。  
+  
 如需要本次评测提供的语料库，请参赛队伍在[**huggingface**](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)申请本次评测语料使用权
 
 ---
