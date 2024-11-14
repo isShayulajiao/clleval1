@@ -3,17 +3,9 @@
 
 <div>
 <div align="left">
-    <a target='_blank'>Kang Wang<sup>1</sup></span>&emsp;
-    <a target='_blank'>Gang Hu<sup>1</sup></span>&emsp;
-    <a target='_blank'>QingQing Wang<sup>1</sup></a>&emsp;
-    <a target='_blank'>Ke Qin<sup>1</sup></a>&emsp;
-        
-</div>
-<div>
-<div align="left">
-    <sup>1</sup>Yunan University&emsp;
-    <sup>3</sup>Sichuan University&emsp;
-    <sup>3</sup>Wuhan University&emsp;
+    <sup>1</sup>云南大学&emsp;
+    <sup>3</sup>武汉大学&emsp;
+    <sup>3</sup>四川大学&emsp;
 
 </div>
 <div align="left">
@@ -25,7 +17,10 @@
 
 
 ## 评测组织者
-* 胡刚（hugang@ynu.edu.cn），云南大学  
+* 胡刚（hugang@ynu.edu.cn），云南大学
+* 岳昆，云南省智能系统与计算重点实验室
+* 彭敏， 武汉大学计算机学院
+* 陈思广，四川大学新闻与文学学院
 
 
 ## 联系人及联系方式
@@ -100,8 +95,7 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 1. https://github.com/isen-zhang/ACLUE
 2. Cui, Y., Liu, T., Chen, Z., Wang, S., & Hu, G. (2016). Consensus attention-based neural networks for Chinese reading comprehension. arXiv preprint arXiv:1607.02250.
 3. Xu, J., Wen, J., Sun, X., & Su, Q. (2017). A discourse-level named entity recognition and relation extraction dataset for chinese literature text. arXiv preprint arXiv:1711.07010.
-4. https://blog.csdn.net/zcp0216/article/details/122063405?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170159041816800192270328%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=170159041816800192270328&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-2-122063405-null-null.nonecase&utm_term=%E4%B8%AD%E6%96%87%E6%96%87%E5%AD%A6%E6%95%B0%E6%8D%AE%E9%9B%86&spm=1018.2226.3001.4450
-5. https://github.com/NiuTrans/Classical-Modern
+4. https://gitee.com/zhang-chen-peng/Chinese-Authorship-Identification-Dataset
 
 ### 2.1 现代文学批评倾向
 
