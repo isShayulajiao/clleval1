@@ -109,7 +109,7 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 
 现代文学批评倾向评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_text") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+[![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
 ![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/CritBias_sample.jpg)
 
 
@@ -193,7 +193,7 @@ $$
 
 现代文学批评挖掘评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_text") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+[![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
 ![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/CritPred_sample.jpg)
 
 ### 评价指标
@@ -215,7 +215,7 @@ $$
 
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个唯一的ID、问题文本、任务提示、选项及正确答案的标识，以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_text") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+[![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
 ![古代文学知识理解](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/ACLUE_sample.jpg)
 
 ### 评价标准
