@@ -366,7 +366,7 @@ $$\text{任务得分} = \frac{\sum_{j=1}^{m} \text{指标得分}_j}{m}$$
 
 ## 7 申请本次评测语料使用权
 
-您需要在[**huggingface**](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)申请分享您的电子邮件和用户名，我们在核实您的身份后，才能访问评测数据集。
+您需要在[**huggingface**](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)申请并分享您的电子邮件和用户名，我们在核实您的身份后，才能访问评测数据集。
 
 ---
 
