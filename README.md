@@ -4,8 +4,8 @@
 <div>
 <div align="left">
     云南大学&emsp;
-    <sup>3</sup>武汉大学&emsp;
-    <sup>3</sup>四川大学&emsp;
+    武汉大学&emsp;
+    四川大学&emsp;
 
 </div>
 <div align="left">
