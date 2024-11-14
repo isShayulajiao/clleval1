@@ -17,15 +17,14 @@
 
 
 ## 评测组织者
-* 胡刚（hugang@ynu.edu.cn），云南大学信息学院（研究方向，跨语言智能信息处理）[![Email](https://img.shields.io/badge/Email-%F0%9F%93%A7-blue)](hugang@ynu.edu.cn)
+* 胡刚，云南大学信息学院（研究方向，跨语言智能信息处理）[![Email](https://img.shields.io/badge/Email-%F0%9F%93%A7-blue)](hugang@ynu.edu.cn)
 * 岳昆，云南大学信息学院（云南省智能系统与计算重点实验室主任）
 * 彭敏， 武汉大学计算机学院（中文信息学会，计算机语言学专委）
 * 陈思广，四川大学文学与新闻学院 （中国现代长篇小说编年史料研究 ）
 
 
 ## 联系人及联系方式
-* 王康(wangkang1@stu.ynu.edu.cn)，云南大学硕士研究生
-* 王情情，云南大学硕士研究生
+* 王康，云南大学硕士研究生[![Email](https://img.shields.io/badge/Email-%F0%9F%93%A7-blue)](wangkang1@stu.ynu.edu.cn)
 
 ## 目录
 
