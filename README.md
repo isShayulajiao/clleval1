@@ -3,10 +3,10 @@
 
 <div>
 <div align="left">
-    云南大学&emsp;
-    武汉大学&emsp;
-    四川大学&emsp;
-
+&nbsp;&nbsp;云南大学&emsp;
+&nbsp;&nbsp;武汉大学&emsp;
+&nbsp;&nbsp;四川大学&emsp;
+</div>
 </div>
 <div align="left">
     <img src='https://i.postimg.cc/DfB8jxV1/ynu.png' alt='Yunnan University Logo' height='80px'>&emsp;
@@ -17,10 +17,10 @@
 
 
 ## 评测组织者
-* 胡刚（hugang@ynu.edu.cn），云南大学
-* 岳昆，云南省智能系统与计算重点实验室
-* 彭敏， 武汉大学计算机学院
-* 陈思广，四川大学新闻与文学学院
+* 胡刚（hugang@ynu.edu.cn），云南大学信息学院（研究方向，跨语言智能信息处理）
+* 岳昆，云南大学信息学院（云南省智能系统与计算重点实验室主任）
+* 彭敏， 武汉大学计算机学院（中文信息学会，计算机语言学专委）
+* 陈思广，四川大学文学与新闻学院 （中国现代长篇小说编年史料研究 ）
 
 
 ## 联系人及联系方式
