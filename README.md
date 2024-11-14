@@ -107,7 +107,7 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 
 ### 数据样例
 
-现代文学批评倾向评测任务提供了JSON格式的数据。以下为相应的数据样例：
+现代文学批评倾向评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_text") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
 ![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/oa2.jpg)
@@ -191,14 +191,14 @@ $$
 
 ### 数据样例
 
-现代文学批评挖掘评测任务提供了JSON格式的数据。以下为相应的数据样例：
+现代文学批评挖掘评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_text") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
 ![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/oa1.jpg)
 
 ### 评价指标
 
-在本任务中，准确率用于衡量模型在从评论文本中正确识别和提取被评论的出版物名称的能力。准确预测的标签是指模型在对给定的评论文本进行任务处理后，能准确地识别出文本中涉及的出版物名称并匹配真实标注的数量。
+在本任务中，使用准确率（ACC）来衡量模型在从评论文本中正确识别和提取被评论的出版物名称的能力。
 
 评价指标的说明：
 * 高准确率 表示模型能够高效、精准地识别出评论中的出版物名称。
@@ -208,8 +208,18 @@ $$
 
 
 ### 2.3 古代文学知识理解
+
 ### 任务内容
+该任务使用了古汉语语言理解评估基准[50]。这个数据集包含了一系列古文文学问题，主要用于选择最合适的答案。每个问题提供了一个上下文和四个选项（A、B、C、D），模型需根据上下文进行判断，选出正确的答案。问题涵盖了古诗词中前后文连贯性、古文解析、诗词理解和文化背景等多个方面，适合用于中文文学教学或考试评估。该任务旨在评估模型对古代文学知识的理解能力。
+### 数据样例
+
+该任务提供了一个JSON格式的数据集，其中每个条目都包含一个唯一的ID、问题文本、任务提示、选项及正确答案的标识，以下为相应的数据样例：
+
+[![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_text") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/oa2.jpg)
+
 ### 评价标准
+
 ### 2.4 文学阅读理解
 ### 任务内容
 ### 评价标准
