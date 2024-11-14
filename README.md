@@ -330,13 +330,13 @@ python eval.py \
 
 提交的压缩包命名为**参赛队伍名称 + CCL2025-CLLEval 评测结果**，其中包含七个任务的预测文件以及两个excel指标文件。
 result.zip  
-OA1.json  
-OA2.json  
+CritBias.json  
+CritPred.json  
 ACLUE.json  
-cft.json  
-NER_re.json  
-author.json  
-tsla.json  
+ReadCom.json  
+LitNRE.json  
+AuthIDE.json  
+ClaTrans.json  
 metrics.xlsx  
 metrics_Avg.xlsx  
 1. 七个任务的预测文件需严格命名为OA1.json、OA2.json、ACLUE.json、cft.json、NER_re.json、author.json和tsla.json。  
