@@ -322,7 +322,7 @@ python src/eval.py \
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
 python eval.py \
     --model gpt-3.5-turbo \
-    --tasks CLLEval_aclue,CLLEval_author_2_class,CLLEval_oa
+    --tasks CLLEval_aclue,CLLEval_authide,CLLEval_critpred
 ```
 
 ---
