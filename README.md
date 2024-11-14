@@ -345,7 +345,7 @@ python eval.py \
 
 参赛队伍在测试集上参与评测，结果集使用ccleval评测框架最终生成的数据格式。
 
-提交的压缩包命名为**参赛队伍名称 + CCL2025-CLLEval 评测结果**，其中包含七个任务的预测文件以及两个excel指标文件。
+提交的压缩包命名为**参赛队伍名称 + CCL2025-CLLEval 评测结果**，其中包含七个任务的预测文件以及两个excel指标文件。  
 result.zip  
 CritBias.json  
 CritPred.json  
