@@ -216,7 +216,7 @@ $$
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个唯一的ID、问题文本、任务提示、选项及正确答案的标识，以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_text") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/oa2.jpg)
+![古代文学知识理解](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/ACLUE_sample.jpg)
 
 ### 评价标准
 
