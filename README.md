@@ -42,7 +42,7 @@
 4. [模型评测](#4-模型评测)  
 5. [评测赛程](#评测赛程)  
 6. [结果提交](#结果提交)      
-7. [申请本次评测语料使用权](#7-申请本次评测语料使用权)
+7. [报名提交方式及申请本次评测语料使用权](#7-报名提交方式及申请本次评测语料使用权)
 8. [奖项设置](#奖项设置)   
 
 
@@ -364,9 +364,10 @@ $$\text{任务得分} = \frac{\sum_{j=1}^{m} \text{指标得分}_j}{m}$$
 ---
 
 
-## 7 申请本次评测语料使用权
+## 7 报名提交方式及申请本次评测语料使用权
 
-您需要在[**huggingface**](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)申请并分享您的电子邮件和用户名，我们在核实您的身份后，才能访问评测数据集。
+点击报名链接填写报名表 https://f.kdocs.cn/g/aYC93cfz/ 进行报名，我们会发送邮件确认您已经参赛。
+如需要本次评测提供的语料库，请参赛队伍在[**huggingface**](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)申请本次评测语料使用权
 
 ---
 
