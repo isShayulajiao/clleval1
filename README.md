@@ -190,7 +190,10 @@ $$
 现代文学批评挖掘是一个从评论文本中提取出被评论的出版物名称的过程。该数据集同样来自于文学评价数据集(1922-1949_Origin_AllDocs)，以20世纪早期的文学评论为主要内容，包含多个评论实例，每个实例包括一个标识符、评论上下文、任务提示以及对应的出版物名称。通过该数据集，研究者可以开展出版物名称识别和文本信息抽取任务。数据集的标注涵盖了评论文本中涉及的作品名称，为中文文本的自动信息提取与分析提供了重要的资源。
 
 ### 数据样例
+
 现代文学批评挖掘评测任务提供了JSON格式的数据。以下为相应的数据样例：
+
+[![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_text") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
 ![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/oa1.jpg)
 
 ### 评价指标
