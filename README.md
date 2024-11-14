@@ -106,7 +106,10 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 该数据集专注于现代文学批评中的情感分析任务，是一个判断文学评价中的情感倾向是积极、中性还是消极的过程。主要以20世纪早期的文学评论为内容，涵盖了多个文学作品的评论实例。每个实例包括一个标识符、评论文本、任务提示以及情感分类标签（如“积极”、“中性”、“消极”）。通过该数据集，研究人员可以对文学批评文本进行情感倾向的自动识别，推动中文文学评论的情感分析技术发展。数据集的标注确保了每条评论的情感分类准确，为文学批评情感分析、情感分类等领域的研究提供了丰富的素材和支持。
 
 ### 数据样例
+
 现代文学批评倾向评测任务提供了JSON格式的数据。以下为相应的数据样例：
+
+[![sample](https://img.shields.io/badge/sample-CLLEval_text-red.svg "CLLEval_text") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
 ![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/oa2.jpg)
 
 
