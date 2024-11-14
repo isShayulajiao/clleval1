@@ -3,7 +3,7 @@
 
 <div>
 <div align="left">
-    <sup>1</sup>云南大学&emsp;
+    云南大学&emsp;
     <sup>3</sup>武汉大学&emsp;
     <sup>3</sup>四川大学&emsp;
 
