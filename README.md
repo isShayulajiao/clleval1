@@ -346,13 +346,13 @@ pip install -e .[multilingual]
 
 在评估之前，请下载[BART模型](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)到'src/metrics/BARTScore/bart_score.pth'。  
 
-`` BART模型 ``是一个用来评测**文学语言风格转换**任务的预训练模型。  
+`` BART模型 ``是一个用来评测文学语言风格转换任务的预训练模型。  
 
 对于自动化评测，请按照以下步骤操作：
 
 1. Huggingface Transformer
 
-   若要评估托管在 HuggingFace Hub 上的模型（例如，/Baichuan2-7B-Base），请使用以下命令：
+   若要评估托管在 HuggingFace Hub 上的模型（例如，Baichuan2-7B-Base），请使用以下命令：
 
 ```bash
 python src/eval.py \
@@ -361,7 +361,7 @@ python src/eval.py \
     --model_args use_accelerate=True,pretrained=baichuan-inc/Baichuan2-7B-Base,tokenizer=baichuan-inc/Baichuan2-7B-Base,max_gen_toks=1024,use_fast=False,dtype=float16,trust_remote_code=True 
 ```
 * 若您的模型存放在本地，`` pretrained ``和`` tokenizer ``应该填写模型存放在本地的地址。
-* 评测**文学语言风格转换**任务时，`` max_gen_toks ``建议设置成`` 20 ``；评测**现代文学批评挖掘、文学阅读理解、文学语言理解**任务时，`` max_gen_toks ``建议设置成`` 200 ``。
+* 评测文学语言风格转换任务时，`` max_gen_toks ``建议设置成`` 20 ``；评测现代文学批评挖掘、文学阅读理解和文学语言理解这三个任务时，`` max_gen_toks ``建议设置成`` 200 ``。
 
 
 常见模型使用的model参数如下表所示:
