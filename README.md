@@ -26,7 +26,7 @@
 
 
 ## 联系人及联系方式
-![sample](https://img.shields.io/badge/2025CCLEval_YNU-blue.svg "2025CCLEval_YNU")
+![YNU](https://img.shields.io/badge/CAMRP_2024-NNU-blue.svg "sign up")
 * 王康，云南大学硕士研究生[![Email](https://img.shields.io/badge/Email-%F0%9F%93%A7-blue)](wangkang1@stu.ynu.edu.cn)
 * 王情情，云南大学硕士研究生
 
@@ -113,7 +113,7 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 ### 数据样例
 现代文学批评倾向评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+[![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ]
 ![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/CritBias_sample.jpg)
 
 #### 数据说明
