@@ -26,7 +26,7 @@
 
 
 ## 联系人及联系方式
-![YNU](https://img.shields.io/badge/CLLEval_2025-NNU-blue.svg "sign up")
+![YNU](https://img.shields.io/badge/CLLEval_2025-YNU-blue.svg "sign up")
 * 王康，云南大学硕士研究生[![Email](https://img.shields.io/badge/Email-%F0%9F%93%A7-blue)](wangkang1@stu.ynu.edu.cn)
 * 王情情，云南大学硕士研究生
 
