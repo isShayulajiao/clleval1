@@ -189,7 +189,7 @@ $$
 
 #### 评测表现
 
-| Model Name             | ACC     | F1 Score | Macro F1 | MCC     | Average   |
+| 模型名称             | ACC     | F1 Score | Macro F1 | MCC     | Average   |
 |:------------------------:|:---------:|:----------:|:----------:|:---------:|:-----------:|
 | bloomz-7b1             | 0.0709  | 0.1157   | 0.0647   | 0.1157  | 0.0918    |
 | Baichuan-7B            | 0.0213  | 0.0353   | 0.0495   | 0.0285  | 0.03365   |
@@ -244,18 +244,18 @@ $$
 ---
 
 
-### 2.3 古代文学知识理解
+## 2.3 古代文学知识理解
 
-#### 任务内容
+### 任务内容
 本任务使用了古汉语语言理解评估基准[50]作为数据集。该数据集包含了一系列古文文学问题，主要用于评估模型选择最合适的答案的能力。每个问题提供了一个上下文和四个选项（“A”、“B”、“C”、“D”），模型需根据上下文进行判断，选出正确的答案。问题涵盖了古诗词中前后文连贯性、古文解析、诗词理解和文化背景等多个方面，适合用于中文文学教学或考试评估。该任务旨在评估模型对古代文学知识的理解能力。
 
-#### 数据样例
+### 数据样例
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个唯一的数据标识符（id）、输入文本（问题及ABCD四个选项的内容）、query（任务提示及输入文本）、正确答案的标识、标签（“A”、“B”、“C”、“D”）及正确答案在标签中的索引。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
 ![古代文学知识理解](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/ACLUE_sample.jpg)
 
-#### 评价指标
+### 评价指标
 
 该任务采用`` 准确率 (ACC)、F1 Score、Macro F1 和 MCC（(Matthews Correlation Coefficient） ``来评估模型的表现。  
 
@@ -295,7 +295,7 @@ $$
 
 ## 3 评价标准
 
-各数据集使用的评价指标如下图所示：
+各任务使用的评价指标如下图所示：
 
 | Task                      | Data     | Test  | Metrics                          |
 |:---------------------------:|:--------:|:-----:|:---------------------------------:|
@@ -309,6 +309,25 @@ $$
 
 
 各指标详细计算过程详情请看[**第二章任务介绍**](#2-任务介绍)
+
+任务的平均指标如下图所示：
+
+| 模型名称          | CritBias | CritPred | ACLUE  | ReadCom | LitNRE | AuthIDE  | ClaTrans  |
+|:-----------------:|:--------:|:--------:|:------:|:-------:|:------:|:--------:|:---------:|
+| bloomz-7b1        | 0.0564   | 0.1809   | 0.2429 | 0.0053  | 0      | 0.2713   | -3.75505  |
+| Baichuan-7B       | 0.0337   | 0.0446   | 0.1874 | 0       | 0.0298 | -2.46725 | XXX|
+| Llama-2-7b-hf     | 0.0705   | 0        | 0.154  | 0       | 0.0072 | 0.2866   | -2.5758   |
+| Baichuan2-7B-Base | -0.0009  | 0.1858   | 0.2271 | 0.001   | 0.0026 | 0.3315   | 0.58      |
+| Qwen-7B           | 0.1637   | 0        | 0.1248 | 0       | 0      | 0.1934   | -2.44475  |
+| Xunzi-Qwen1.5-7B  | 0.3452   | 0        | 0.1683 | 0       | 0.0049 | 0.575    | -2.4435   |
+| Qwen1.5-7B        | 0.246    | 0.1604   | 0.3479 | 0.013   | 0.0138 | 0.4164   | -2.33505  |
+| internlm2-7b      | 0.3694   | 0.7346   | 0.4318 | 0.0185  | 0.0281 | 0.7524   | -2.444    |
+| Llama-3-8B        | 0.0358   | 0.1303   | 0.1772 | 0       | 0.0867 | 0.3735   | -2.6244   |
+| Qwen2-7B          | 0.1607   | 0.1641   | 0.4492 | 0.038   | 0.0058 | 0.4122   | -2.31345  |
+
+
+---
+
 
 ## 4 模型评测
 
@@ -325,7 +344,9 @@ pip install -e .[multilingual]
 
 #### 自动化任务评测
 
-在评估之前，请下载[BART模型检查点](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)到'src/metrics/BARTScore/bart_score.pth'。
+在评估之前，请下载[BART模型](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)到'src/metrics/BARTScore/bart_score.pth'。  
+
+`` BART模型 ``是用来评测**现代文学批评挖掘**以及**文学语言风格转换**这两个任务的预训练模型。  
 
 对于自动化评测，请按照以下步骤操作：
 
@@ -339,6 +360,8 @@ python src/eval.py \
     --tasks flare_CritBias \
     --model_args use_accelerate=True,pretrained=Qwen/Qwen2-7B,tokenizer=Qwen/Qwen2-7B,max_gen_toks=1024,use_fast=False,dtype=float16,trust_remote_code=True 
 ```
+若您的模型存放在本地，`` pretrained ``和`` tokenizer ``应该填写模型存放在本地的地址。
+
 
 常见模型使用的model参数如下表所示:
 
