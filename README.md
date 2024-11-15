@@ -315,21 +315,16 @@ python src/eval.py \
     --model_args use_accelerate=True,pretrained=Qwen/Qwen2-7B,tokenizer=Qwen/Qwen2-7B,max_gen_toks=1024,use_fast=False,dtype=float16,trust_remote_code=True 
 ```
 
-常见模型使用的model参数如下表所示：
+常见模型使用的model参数如下表所示:
 
+| 模型名称                   | model参数       | 模型名称                | model参数       |
+|:-------------------------:|:------------------:|:---------------------:|:------------------:|
+| bloomz_7b1              | hf-causal-vllm   | Baichuan-7B         | hf-causal-llama  |
+| Llama-2-7b-hf           | hf-causal-llama  | Baichuan2-7B-Base   | hf-causal-vllm   |
+| Qwen-7B                 | hf-causal-vllm   | Xunzi-Qwen1.5-7B    | hf-causal-vllm   |
+| Qwen1.5-7B              | hf-causal-vllm   | internlm2-7b        | hf-causal-vllm   |
+| Llama-3-8B              | hf-causal-vllm   | Qwen2-7B            | hf-causal-vllm   |
 
-| Model                   | model 参数       |
-|:-------------------------:|:------------------:|
-| bloomz_7b1              | hf-causal-vllm   |
-| Baichuan-7B             | hf-causal-llama  |
-| Llama-2-7b-hf           | hf-causal-llama  |
-| Baichuan2-7B-Base       | hf-causal-vllm   |
-| Qwen-7B                 | hf-causal-vllm   |
-| Xunzi-Qwen1.5-7B        | hf-causal-vllm   |
-| Qwen1.5-7B              | hf-causal-vllm   |
-| internlm2-7b            | hf-causal-vllm   |
-| Llama-3-8B              | hf-causal-vllm   |
-| Qwen2-7B                | hf-causal-vllm   |
 
 
 2. API
