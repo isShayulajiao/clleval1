@@ -353,7 +353,7 @@ pip install -e .[multilingual]
 
 在评估之前，请下载[BART模型](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)到'src/metrics/BARTScore/bart_score.pth'。  
 
-`` BART模型 ``是一个用来评测文学语言风格转换任务的预训练模型。  
+- `` BART模型 ``是一个用来评测文学语言风格转换任务的预训练模型。  
 
 对于自动化评测，请按照以下步骤操作：
 
