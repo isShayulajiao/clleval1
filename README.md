@@ -355,7 +355,7 @@ pip install -e .[multilingual]
 
 - `` BART模型 ``是一个用来评测文学语言风格转换任务的预训练模型。  
 
-对于自动化评测，请按照以下步骤操作：
+对于自动化评测，请观看以下操作提示：
 
 1. Huggingface Transformer
 
