@@ -27,6 +27,7 @@
 
 ## 联系人及联系方式
 * 王康，云南大学硕士研究生[![Email](https://img.shields.io/badge/Email-%F0%9F%93%A7-blue)](wangkang1@stu.ynu.edu.cn)
+* 王情情，云南大学硕士研究生
 
 ## 目录
 
