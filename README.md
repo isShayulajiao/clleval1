@@ -299,7 +299,7 @@ $$
 
 ## 3 评价标准
 
-各任务使用的评价指标如下图所示：
+各任务使用的评价指标如下表所示：
 
 ![Metrics](https://img.shields.io/badge/Metrics-CLLEval_2025-blue.svg "CLLEval 2025 Metrics")
 
@@ -316,9 +316,9 @@ $$
 
 各指标详细计算过程详情请看[**第二章任务介绍**](#2-任务介绍)
 
-任务的平均指标如下图所示：
+任务的平均指标如下表所示：
 
-![Evaluation_Performance](https://img.shields.io/badge/Evaluation_Performance-blue.svg "CLLEval 2025 Evaluation Performance")
+![Evaluation_Performance](https://img.shields.io/badge/Evaluation-Performance-CLLEval_2025-blue.svg "CLLEval 2025 Evaluation Performance")
 
 | 模型名称          | CritBias | CritPred | ACLUE  | ReadCom | LitNRE | AuthIDE  | ClaTrans  |
 |:-----------------:|:--------:|:--------:|:------:|:-------:|:------:|:--------:|:---------:|
