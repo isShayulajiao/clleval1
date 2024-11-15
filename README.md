@@ -317,6 +317,8 @@ $$
 
 任务的平均指标如下图所示：
 
+![Evaluation_Performance](https://img.shields.io/badge/Evaluation_Performance-red.svg "Evaluation_Performance") 
+
 | 模型名称          | CritBias | CritPred | ACLUE  | ReadCom | LitNRE | AuthIDE  | ClaTrans  |
 |:-----------------:|:--------:|:--------:|:------:|:-------:|:------:|:--------:|:---------:|
 | bloomz-7b1        | 0.0564   | 0.1809   | 0.2429 | 0.0053  | 0      | 0.2713   | -3.75505  |
