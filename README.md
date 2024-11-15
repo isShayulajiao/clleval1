@@ -302,6 +302,7 @@ $$
 各任务使用的评价指标如下图所示：
 
 ![CLLEval_Metrics](https://img.shields.io/badge/CLLEval_Metrics-blue.svg "CLLEval_Metrics") 
+![Metrics](https://img.shields.io/badge/CLLEval_2025-Metrics-blue.svg "sign up")
 
 | Task                      | Data     | Test  | Metrics                          |
 |:---------------------------:|:--------:|:-----:|:---------------------------------:|
