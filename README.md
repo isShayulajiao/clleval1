@@ -93,7 +93,7 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 
 
 
-1. https://github.com/isen-zhang/ACLUE
+1. Zhang, Y., & Li, H. (2023). Can large language model comprehend ancient chinese? a preliminary test on aclue. arXiv preprint arXiv:2310.09550.
 2. Cui, Y., Liu, T., Chen, Z., Wang, S., & Hu, G. (2016). Consensus attention-based neural networks for Chinese reading comprehension. arXiv preprint arXiv:1607.02250.
 3. Xu, J., Wen, J., Sun, X., & Su, Q. (2017). A discourse-level named entity recognition and relation extraction dataset for chinese literature text. arXiv preprint arXiv:1711.07010.
 4. https://gitee.com/zhang-chen-peng/Chinese-Authorship-Identification-Dataset
