@@ -300,6 +300,8 @@ $$
 
 各任务使用的评价指标如下图所示：
 
+![CLLEval_Metrics](https://img.shields.io/badge/CLLEval_Metrics-red.svg "CLLEval_Metrics") 
+
 | Task                      | Data     | Test  | Metrics                          |
 |:---------------------------:|:--------:|:-----:|:---------------------------------:|
 | 现代文学批评倾向            | CritBias      | 829   | ACC, F1, macro-F1, mcc                                |
