@@ -443,7 +443,7 @@ metrics_Avg.xlsx
 1. 七个任务的预测文件需严格命名为OA1.json、OA2.json、ACLUE.json、cft.json、NER_re.json、author.json和tsla.json。  
 2. 请严格使用**参赛队伍名称 + CCL2025-CLLEval 评测结果**对OA1.json、OA2.json ACLUE.json、cft.json、NER_re.json、author.json、tsla.json、metrics.xlsx和metrics_Avg.xlsx进行压缩，即要求解压后的文件不能存在中间目录。 选⼿可以只提交部分任务的结果，如只提交“现代文学批评倾向 ”任务，未预测任务的分数默认为0。  
 3. metrics.xlsx和metrics_Avg.xlsx文件填写示例，请在[这里](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)下载
-本次评测结果集采用邮件方式进行提交。参赛队伍负责人以
+本次评测结果集采用邮件方式进行提交。参赛队伍负责人以  
 **队伍名称 + CCL2025-CLLEval2025结果提交**为邮件标题，将结果文件直接发送到 **wangkang1@stu.ynu.edu.cn** ，以提交时间截止前您的最后一次提交结果为准。
 
 ### 排名
