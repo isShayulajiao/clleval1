@@ -300,7 +300,7 @@ $$
 
 各任务使用的评价指标如下图所示：
 
-![CLLEval_Metrics](https://img.shields.io/badge/CLLEval_Metrics-red.svg "CLLEval_Metrics") 
+![CLLEval_Metrics](https://img.shields.io/badge/CLLEval_Metrics-blue.svg "CLLEval_Metrics") 
 
 | Task                      | Data     | Test  | Metrics                          |
 |:---------------------------:|:--------:|:-----:|:---------------------------------:|
@@ -317,7 +317,7 @@ $$
 
 任务的平均指标如下图所示：
 
-![Evaluation_Performance](https://img.shields.io/badge/Evaluation_Performance-red.svg "Evaluation_Performance") 
+![Evaluation_Performance](https://img.shields.io/badge/Evaluation_Performance-blue.svg "Evaluation_Performance") 
 
 | 模型名称          | CritBias | CritPred | ACLUE  | ReadCom | LitNRE | AuthIDE  | ClaTrans  |
 |:-----------------:|:--------:|:--------:|:------:|:-------:|:------:|:--------:|:---------:|
