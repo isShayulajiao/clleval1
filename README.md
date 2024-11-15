@@ -318,7 +318,7 @@ $$
 
 任务的平均指标如下表所示：
 
-![Evaluation Performance](https://img.shields.io/badge/Evaluation-Performance-CLLEval_2025-blue.svg "CLLEval 2025 Evaluation Performance")
+![Evaluation Performance](https://img.shields.io/badge/Evaluation%20Performance-CLLEval_2025-blue.svg "CLLEval 2025 Evaluation Performance")
 
 | 模型名称          | CritBias | CritPred | ACLUE  | ReadCom | LitNRE | AuthIDE  | ClaTrans  |
 |:-----------------:|:--------:|:--------:|:------:|:-------:|:------:|:--------:|:---------:|
