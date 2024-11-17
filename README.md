@@ -254,7 +254,7 @@ $$
 本任务使用了古汉语语言理解评估基准[50]作为数据集，我们对其进行了格式转换。该数据集包含了一系列古文文学问题，主要用于评估模型选择最合适的答案的能力。每个问题提供了一个上下文和四个选项（“A”、“B”、“C”、“D”），模型需根据上下文进行判断，选出正确的答案。问题涵盖了古诗词中前后文连贯性、古文解析、诗词理解和文化背景等多个方面，适合用于中文文学教学或考试评估。该任务旨在评估模型对古代文学知识的理解能力。
 
 ### 数据样例
-该任务提供了一个JSON格式的数据集，其中每个条目都包含一个唯一的数据标识符（id）、text（问题及ABCD四个选项的内容）、query（任务提示及输入文本）、answer（正确答案的标识）、choices（答案标签“A”、“B”、“C”、“D”）及gold（正确答案在标签中的索引）。以下为相应的数据样例：
+该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（问题及ABCD四个选项的内容）、query（任务提示及输入文本）、answer（正确答案）、choices（答案标签“A”、“B”、“C”、“D”）及gold（正确答案在标签中的索引）。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
 ![古代文学知识理解](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/ACLUE_sample.jpg)
@@ -293,7 +293,7 @@ $$
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个唯一的数据标识符（id）、输入文本（text）、任务提示及输入文本（query）、正确答案（answer）。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![古代文学知识理解](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/ReadCom_sample.jpg)
+![文学阅读理解](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/ReadCom_sample.jpg)
 
 ### 评价标准
 
@@ -315,8 +315,28 @@ $$
 
 
 ### 2.5 文学语言理解
+
+文学语言理解是一项旨在通过自然语言处理技术（NLP）来分析和理解文学文本的任务。它关注模型对文学作品中复杂语境、语义关系及隐喻表达的理解能力，需要模型生成高质量的语义输出。通过这些任务，模型能够应对文学文本中语境复杂性和多义性的问题。文学语言理解在教育、文化和技术领域具有广泛应用价值，例如支持智能教学、促进文学分析，同时也为语言模型的通用性和细致性提供了高标准的评估基准。这使其成为人工智能与人文科学结合的重要方向之一。
+
 ### 任务内容
+
+我们使用了Chinese-Literature-NER-RE-Dataset[]作为文学语言理解任务的数据集,该数据集需要模型准确识别文学文本中的命名实体（Named Entities），并对其进行分类。识别的实体包括时间、人物、机构、事物、出版物名、数量词和地点，并输出其名称及对应类型。这类任务不仅关注基本实体的识别，还要求对上下文进行精细化理解以分类实体属性。文学文本通常语言表达丰富，包含隐喻、象征等复杂语义结构，对实体识别提出了更高的要求。模型需要深入分析句子中的语境、句法以及角色关系。
+
+### 数据样例
+该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（文学文本）、query（任务提示及输入文本）、answer（正确答案）及label（每个单词或短语分配的标签，用来标识其类别或类型。）。以下为相应的数据样例：
+
+[![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+![文学语言理解](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/LitNRE_sample.jpg)
+
 ### 评价标准
+
+
+#### 评价指标的说明：
+
+
+#### 评测表现
+
+
 ### 2.6 文学作品风格预测
 ### 任务内容
 ### 评价标准
