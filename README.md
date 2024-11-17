@@ -332,16 +332,19 @@ $$
 该任务采用`` Entity F1 ``来评估模型的表现。`` Entity F1 `` 是评估命名实体识别（NER）任务中模型性能的重要指标之一。它结合了``  精确率（Precision） ``和`` 召回率（Recall） ``的权衡，反映了模型在识别实体方面的综合能力。该指标特别适合评估实体边界和分类是否正确。
 
 **精确率 (Precision, \( P \))**：
+
 $$
 P = \frac{\text{正确识别的实体数}}{\text{预测的实体总数}}
 $$
 
 **召回率 (Recall, \( R \))**：
+
 $$
 R = \frac{\text{正确识别的实体数}}{\text{实际的实体总数}}
 $$
 
 **实体 F1 分数 (Entity F1 Score)**：
+
 $$
 \text{Entity F1} = 2 \cdot \frac{P \cdot R}{P + R}
 $$
