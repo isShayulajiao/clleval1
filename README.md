@@ -335,12 +335,13 @@ $$
 $$
 P = \frac{\text{正确识别的实体数}}{\text{预测的实体总数}}
 $$
+
 **召回率 (Recall, \( R \))**：
 $$
 R = \frac{\text{正确识别的实体数}}{\text{实际的实体总数}}
 $$
-**实体 F1 分数 (Entity F1 Score)**：
 
+**实体 F1 分数 (Entity F1 Score)**：
 $$
 \text{Entity F1} = 2 \cdot \frac{P \cdot R}{P + R}
 $$
