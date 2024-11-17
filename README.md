@@ -343,7 +343,7 @@ $$
 R = \frac{\text{正确识别的实体数}}{\text{实际的实体总数}}
 $$
 
-**实体 F1 分数 (Entity F1 Score)**：
+**Entity F1 Score**：
 
 $$
 \text{Entity F1} = 2 \cdot \frac{P \cdot R}{P + R}
@@ -359,7 +359,7 @@ $$
 
 #### 评测表现
 
-| 模型名称**           | Entity F1 | 模型名称           | Entity F1 |
+| 模型名称           | Entity F1 | 模型名称           | Entity F1 |
 |:------------------------:|:---------------:|:------------------------:|:---------------:|
 | bloomz-7b1            | 0             | Baichuan-7B           | 0.0298        |
 | Llama-2-7b-hf         | 0.0072        | Baichuan2-7B-Base     | 0.0026        |
