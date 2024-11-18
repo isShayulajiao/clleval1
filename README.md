@@ -435,16 +435,16 @@ $$
 #### **BERTScore-F1：**
 BERTScore 是基于 BERT 模型的文本相似度评估指标，BERTScore-F1 值是基于 精确度（Precision） 和 召回率（Recall） 的调和平均。
 
-\[
-\text{F1} = 2 \cdot \frac{\text{精确度} \cdot \text{召回率}}{\text{精确度} + \text{召回率}}
-\]
+$$
+\text{F1} = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+$$
 
 #### **BARTScore：**
 BARTScore 是基于预训练的 BART 模型来评估生成文本质量的指标。BARTScore 通过计算生成文本与参考文本之间的文本重构误差来评估模型的生成质量。
 
-\[
+$$
 \text{BARTScore} = \frac{1}{N} \sum_{i=1}^{N} \text{BART}(\text{参考文本}_i, \text{生成文本}_i)
-\]
+$$
 
 #### 评测表现
 
