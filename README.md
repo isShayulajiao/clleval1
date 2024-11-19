@@ -666,7 +666,42 @@ $$\text{任务得分} = \frac{\sum_{j=1}^{m} \text{指标得分}_j}{m}$$
 本次评测将设置一、二、三等奖，中文信息学将会为本次评测获奖队伍提供荣誉证书。
 
 
+\documentclass{article}
+\usepackage{booktabs}  % 支持三线表
+\usepackage{multirow}  % 支持合并单元格
+\usepackage{array}     % 支持表格对齐优化
 
+\begin{document}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{c c c c c c c c}
+\toprule
+\textbf{任务来源} & \textbf{任务名称} & \textbf{数据集名称} & \textbf{原始数据集大小} & \textbf{指令数据集大小} & \textbf{评估数据集大小} & \textbf{数据来源} & \textbf{版权} \\
+\midrule
+\multirow{2}{*}{\centering \vfill 人工构建 \vfill} 
+  & \multirow{2}{*}{\centering \vfill 现代文学批评倾向 \vfill} & CritBias & 1,014 & 829 & 829 & 现代报刊 & Private \\
+  &  & CritPred & 1,014 & 141 & 141 & 现代报刊 & Private \\
+\midrule
+\multirow{10}{*}{\centering \vfill 公开数据集 \vfill} 
+  & \multirow{2}{*}{\centering \vfill 古代文学知识理解 \vfill} & ACLUE & 49,660 & 49,660 & 14,298 & 公开资源和自动生成的古代汉语语料库 & MIT \\
+  &  & CHED & 119,780 & 119,780 & 35,334 & 古代书籍 & Public \\
+\cmidrule{2-8}
+  & \multirow{2}{*}{\centering \vfill 文学阅读理解 \vfill} & ReadCom & 29,013 & 29,013 & 8,103 & 儿童故事书 & CC-BY-SA-4.0 \\
+  &  & NCR & 8,390 & 20,349 & 2,434 & 初高中语文阅读理解单选题 & Public \\
+\cmidrule{2-8}
+  & \multirow{3}{*}{\centering \vfill 文学语言理解 \vfill} & AdvExt & 17,092 & 16,819 & 4,445 & 中国现代文学作品 & Public \\
+  &  & LitNRE & 28,897 & 27,864 & 1,822 & 公共网站 & Public \\
+  &  & TouTiaoCls & 382,688 & 382,688 & 114,206 & 今日头条客户端 & Public \\
+\cmidrule{2-8}
+  & \multirow{2}{*}{\centering \vfill 文学作品风格预测 \vfill} & AuthIDE & 30,324 & 30,324 & 6,066 & 中国现代文学作品 & Public \\
+  &  & PoePred & 958 & 8,613 & 861 & 公共网站 & MIT \\
+\bottomrule
+\end{tabular}
+\caption{数据集信息}
+\end{table}
+
+\end{document}
 
 
 
