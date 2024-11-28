@@ -161,7 +161,7 @@ $$
 - **低 F1 值** 则可能表明模型在情感识别上存在遗漏或误判。
 
 #### **Macro F1**
-**Macro F1** 是将各情感类别的 F1 值平均，用来衡量模型在不同情感类别上的一致性。宏 F1 值能有效反映多类别情感分析任务中模型的均衡表现，尤其在类别比例不均衡的情感数据中，Macro F1尤为重要。
+**Macro F1** 是将各情感类别的 F1 值平均，用来衡量模型在不同情感类别上的一致性。Macro F1值能有效反映多类别情感分析任务中模型的均衡表现，尤其在类别比例不均衡的情感数据中，Macro F1尤为重要。
 
 **Macro F1** 计算公式为：
 
@@ -339,7 +339,7 @@ $$
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（文学文本）、query（任务提示及输入文本）、answer（正确答案）及label（每个单词或短语分配的标签，用来标识其类别或类型。）。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![文学语言理解](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/LitNRE_sample.jpg)
+![文学语言理解](LitNRE_sample.jpg)
 
 ### 评价标准
 该任务采用`` Entity F1 ``来评估模型的表现。`` Entity F1 `` 是评估命名实体识别（NER）任务中模型性能的重要指标之一。它结合了``  精确率（Precision） ``和`` 召回率（Recall） ``的权衡，反映了模型在识别实体方面的综合能力。该指标特别适合评估实体边界和分类是否正确。
