@@ -226,7 +226,7 @@ $$
 现代文学批评挖掘评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/CritPred_sample.jpg)
+![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/CritPred_sample.jpg)
 
 #### 数据说明
 * `` id ``：数据唯一标识符  
