@@ -1,4 +1,4 @@
-# 2025 CCL25-CLLEval  
+# 2025 CCL25-CLEval  
 # 面向中国文学领域的大语言模型性能评测基准
 
 <div>
@@ -26,7 +26,7 @@
 
 
 ## 联系人及联系方式
-![YNU](https://img.shields.io/badge/CLLEval_2025-YNU-blue.svg "sign up")
+![YNU](https://img.shields.io/badge/CLEval_2025-YNU-blue.svg "sign up")
 * 王康，云南大学硕士研究生[![Email](https://img.shields.io/badge/Email-%F0%9F%93%A7-blue)](wangkang1@stu.ynu.edu.cn)
 * 王情情，云南大学硕士研究生
 
@@ -69,20 +69,20 @@
 
 **评测数据集** :
 
-- [CLLEval (CLLEval_CritBias)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
-- [CLLEval_(CLLEval_CritPred)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
-- [CLLEval (CLLEval_ACLUE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
-- [CLLEval (CLLEval_ReadCom)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
-- [CLLEval (CLLEval_LitNRE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
-- [CLLEval (CLLEval_AuthIDE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
-- [CLLEval (CLLEval_ClaTrans)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
+- [CLEval (CLEval_CritBias)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
+- [CLEval_(CLEval_CritPred)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
+- [CLEval (CLEval_ACLUE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
+- [CLEval (CLEval_ReadCom)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
+- [CLEval (CLEval_LitNRE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
+- [CLEval (CLEval_AuthIDE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
+- [CLEval (CLEval_ClaTrans)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
 
 
 ---
 
 ## 2 任务介绍
 
-CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据，提供了从现代文学批评到古代文学知识的多维度任务。这种多样化的数据集结构对大模型的评估带来了多重优势。不仅丰富了模型的训练和测试内容，涵盖了中国文学的特定文化背景和语言结构，使得大模型的评估结果更加精准，尤其是在语言的细粒度分析和风格迁移方面，而且通过包括文言文等语言结构复杂的文本，这些数据集能够测试大模型对古代汉语的处理能力。数据集的基本信息如下表所示：
+CLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据，提供了从现代文学批评到古代文学知识的多维度任务。这种多样化的数据集结构对大模型的评估带来了多重优势。不仅丰富了模型的训练和测试内容，涵盖了中国文学的特定文化背景和语言结构，使得大模型的评估结果更加精准，尤其是在语言的细粒度分析和风格迁移方面，而且通过包括文言文等语言结构复杂的文本，这些数据集能够测试大模型对古代汉语的处理能力。数据集的基本信息如下表所示：
 
 
 |  Data   |               Task               | Text Types |   Raw   | Instruction | Test  |  License   | Source |
@@ -105,7 +105,7 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 ### 2.1 现代文学批评倾向
 
 该数据集的内容来源于现代报刊中的文学评论文章，由四川大学陈思广老师团队精心筛选和提取。首先，从民国时期的多个主流报刊中挑选了涵盖不同文学流派、风格的评论内容，以确保数据的多样性和代表性。所涉及的文学作品包括经典名著、当代畅销书籍以及重要文学事件的评论，广泛覆盖了各类文学作品。因为民国时期报刊中文字存在破损和污染的情况，数据采集团队对相关评论进行了手动筛选和整理，确保每条数据的准确性和相关性。所有摘录的评价都经过精确标注，并进行了必要的格式化处理，以便后续研究使用。通过这一精细的采集和整理过程，最终构建了一个系统且富有深度的文学评价数据集xxx(1922-1949_Origin_AllDocs)，为文学评论分析、情感分析等研究领域提供了宝贵的资源。我们基于XXX（数据集中文名称）构建了两个文学评价数据集：现代文学批评倾向(CritBias)和现代文学批评挖掘(CritPred)。
-现代文学批评倾向和现代文学批评挖掘这两个任务，CCL25-CLLEval只提供了测试集作为此次任务集的域外数据集，用来评估模型在新任务和领域中的准确性和鲁棒性以及模型的泛化能力。
+现代文学批评倾向和现代文学批评挖掘这两个任务，CCL25-CLEval只提供了测试集作为此次任务集的域外数据集，用来评估模型在新任务和领域中的准确性和鲁棒性以及模型的泛化能力。
 
 ### 任务内容
 该数据集专注于现代文学批评中的情感分析任务，是一个判断文学评价中的情感倾向是积极、中性还是消极的过程。主要以20世纪早期的文学评论为内容，涵盖了多个文学作品的评论实例。其中每个条目都包含一个数据标识符（数据标识符）、输入文本（输入文本）、query（任务提示及输入文本）、answer（正确答案）、choices（分类标签“积极”、“中性”、“消极”）及gold（正确答案在标签中的索引）。通过该数据集，研究人员可以对文学批评文本进行情感倾向的自动识别，推动中文文学评论的情感分析技术发展。数据集的标注确保了每条评论的情感分类准确，为文学批评情感分析、情感分类等领域的研究提供了丰富的素材和支持。
@@ -113,8 +113,8 @@ CLLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据
 ### 数据样例
 现代文学批评倾向评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data")](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/CritBias_sample.jpg)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data")](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/CritBias_sample.jpg)
 
 #### 数据说明
 * `` id ``：数据唯一标识符  
@@ -220,8 +220,8 @@ $$
 #### 数据样例
 现代文学批评挖掘评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/CritPred_sample.jpg)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/CritPred_sample.jpg)
 
 #### 数据说明
 * `` id ``：数据唯一标识符  
@@ -259,8 +259,8 @@ $$
 ### 数据样例
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（问题及ABCD四个选项的内容）、query（任务提示及输入文本）、answer（正确答案）、choices（答案标签“A”、“B”、“C”、“D”）及gold（正确答案在标签中的索引）。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![古代文学知识理解](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/ACLUE_sample.jpg)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+![古代文学知识理解](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/ACLUE_sample.jpg)
 
 ### 评价标准
 
@@ -296,8 +296,8 @@ $$
 ### 数据样例
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（输入文本）、query（任务提示及输入文本）、answer（正确答案）。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![文学阅读理解](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/ReadCom_sample.jpg)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+![文学阅读理解](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/ReadCom_sample.jpg)
 
 ### 评价指标
 
@@ -333,8 +333,8 @@ $$
 ### 数据样例
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（文学文本）、query（任务提示及输入文本）、answer（正确答案）及label（每个单词或短语分配的标签，用来标识其类别或类型。）。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![文学语言理解](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/LitNRE_sample.jpg)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+![文学语言理解](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/LitNRE_sample.jpg)
 
 ### 评价标准
 该任务采用`` Entity F1 ``来评估模型的表现。`` Entity F1 `` 是评估命名实体识别（NER）任务中模型性能的重要指标之一。它结合了``  精确率（Precision） ``和`` 召回率（Recall） ``的权衡，反映了模型在识别实体方面的综合能力。该指标特别适合评估实体边界和分类是否正确。
@@ -392,8 +392,8 @@ $$
 ### 数据样例
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（文学文本）、query（任务提示及输入文本）、answer（正确答案）、choices（作者标签“鲁迅”、“莫言”）及gold（正确答案在标签中的索引）。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![文学作品风格预测](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/AuthIDE_sample.jpg)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+![文学作品风格预测](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/AuthIDE_sample.jpg)
 
 ### 评价标准
 
@@ -429,8 +429,8 @@ $$
 ### 数据样例
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（古代汉语文本）、query（任务提示及输入文本）、answer（正确答案）。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLLEval_data-red.svg "CLLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![文学作品风格预测](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/ClaTrans_sample.jpg)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+![文学作品风格预测](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/ClaTrans_sample.jpg)
 
 ### 评价标准
 
@@ -486,7 +486,7 @@ $$
 
 各任务使用的评价指标如下表所示：
 
-![Metrics](https://img.shields.io/badge/Metrics-CLLEval_2025-blue.svg "CLLEval 2025 Metrics")
+![Metrics](https://img.shields.io/badge/Metrics-CLEval_2025-blue.svg "CLEval 2025 Metrics")
 
 | Task                      | Data     | Test  | Metrics                          |
 |:---------------------------:|:--------:|:-----:|:---------------------------------:|
@@ -503,7 +503,7 @@ $$
 
 任务的平均指标如下表所示：
 
-![Performance](https://img.shields.io/badge/Performance-CLLEval_2025-blue.svg "CLLEval 2025 Performance")
+![Performance](https://img.shields.io/badge/Performance-CLEval_2025-blue.svg "CLEval 2025 Performance")
 
 | 模型名称          | CritBias | CritPred | ACLUE  | ReadCom | LitNRE | AuthIDE  | ClaTrans  |
 |:-----------------:|:--------:|:--------:|:------:|:-------:|:------:|:--------:|:---------:|
@@ -526,10 +526,10 @@ $$
 
 #### 本地部署
 ```bash
-git clone https://github.com/isShayulajiao/CLLEval1.git
-cd CLLEval
+git clone https://github.com/isShayulajiao/CLEval1.git
+cd CLEval
 pip install -r requirements.txt
-cd CLLEval/src/literature-evaluation
+cd CLEval/src/literature-evaluation
 pip install -e .[multilingual]
 ```
 
@@ -574,7 +574,7 @@ python src/eval.py \
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
 python eval.py \
     --model gpt-3.5-turbo \
-    --tasks CLLEval_aclue,CLLEval_authide,CLLEval_critpred
+    --tasks CLEval_aclue,CLEval_authide,CLEval_critpred
 ```
 
 ---
@@ -631,7 +631,7 @@ metrics_Avg.xlsx
 2. 请严格使用**队伍名称+result.zip**对OA1.json、OA2.json ACLUE.json、cft.json、NER_re.json、author.json、tsla.json、metrics.xlsx和metrics_Avg.xlsx进行压缩，即要求解压后的文件不能存在中间目录。 选⼿可以只提交部分任务的结果，如只提交“现代文学批评倾向 ”任务，未预测任务的分数默认为0。  
 3. metrics.xlsx和metrics_Avg.xlsx文件填写示例，请在[这里](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)下载
 本次评测结果集采用邮件方式进行提交。参赛队伍负责人以  
-**队伍名称 + CCL2025-CLLEval2025结果提交**为邮件标题，将结果文件直接发送到 **wangkang1@stu.ynu.edu.cn** ，以提交时间截止前您的最后一次提交结果为准。
+**队伍名称 + CCL2025-CLEval2025结果提交**为邮件标题，将结果文件直接发送到 **wangkang1@stu.ynu.edu.cn** ，以提交时间截止前您的最后一次提交结果为准。
 
 ### 排名
 
