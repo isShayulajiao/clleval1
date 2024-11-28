@@ -226,7 +226,7 @@ $$
 现代文学批评挖掘评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![现代文学批评挖掘](https://github.com/isShayulajiao/CCL25-CLLEval/blob/main/CritPred_sample.jpg)
+![现代文学批评挖掘](CritPred_sample.jpg)
 
 #### 数据说明
 * `` id ``：数据唯一标识符  
@@ -265,7 +265,7 @@ $$
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（问题及ABCD四个选项的内容）、query（任务提示及输入文本）、answer（正确答案）、choices（答案标签“A”、“B”、“C”、“D”）及gold（正确答案在标签中的索引）。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![古代文学知识理解](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/ACLUE_sample.jpg)
+![古代文学知识理解](ACLUE_sample.jpg)
 
 ### 评价标准
 
@@ -302,7 +302,7 @@ $$
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（输入文本）、query（任务提示及输入文本）、answer（正确答案）。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![文学阅读理解](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/ReadCom_sample.jpg)
+![文学阅读理解](ReadCom_sample.jpg)
 
 ### 评价指标
 
@@ -398,7 +398,7 @@ $$
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（文学文本）、query（任务提示及输入文本）、answer（正确答案）、choices（作者标签“鲁迅”、“莫言”）及gold（正确答案在标签中的索引）。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![文学作品风格预测](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/AuthIDE_sample.jpg)
+![文学作品风格预测](AuthIDE_sample.jpg)
 
 ### 评价标准
 
@@ -435,7 +435,7 @@ $$
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（古代汉语文本）、query（任务提示及输入文本）、answer（正确答案）。以下为相应的数据样例：
 
 [![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
-![文学作品风格预测](https://github.com/isShayulajiao/CCL25-CLEval/blob/main/ClaTrans_sample.jpg)
+![文学作品风格预测](ClaTrans_sample.jpg)
 
 ### 评价标准
 
