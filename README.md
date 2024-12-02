@@ -163,15 +163,15 @@ $$
 **公式符号解释**
 - **精确率 (Precision)**：模型预测为正类的样本中，实际为正类的比例：
 
-  $$
-  \text{Precision} = \frac{\text{TP}}{\text{TP} + \text{FP}}
-  $$
+$$
+\text{Precision} = \frac{\text{TP}}{\text{TP} + \text{FP}}
+$$
 
 - **召回率 (Recall)**：所有实际为正类的样本中，模型正确预测为正类的比例：
 
-  $$
-  \text{Recall} = \frac{\text{TP}}{\text{TP} + \text{FN}}
-  $$
+$$
+\text{Recall} = \frac{\text{TP}}{\text{TP} + \text{FN}}
+$$
 
 在情感倾向分析中，F1 值帮助评估模型识别特定情感（如正面或负面）的精度和完整性。较高的 F1 值表明模型不仅能够准确地识别情感类型，还能覆盖尽可能多的情感样本。
 
