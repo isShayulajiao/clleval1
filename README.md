@@ -142,10 +142,10 @@ $$
 $$
 
 **公式符号解释**
-- **TP**（True Positive）：真正例，正确预测为正类的样本数。
-- **TN**（True Negative）：真负例，正确预测为负类的样本数。
-- **FP**（False Positive）：假正例，错误预测为正类的负类样本数。
-- **FN**（False Negative）：假负例，错误预测为负类的正类样本数。
+- **TP**（True Positive）：正确预测为正类的样本数。
+- **TN**（True Negative）：正确预测为负类的样本数。
+- **FP**（False Positive）：错误预测为正类的负类样本数。
+- **FN**（False Negative）：错误预测为负类的正类样本数。
 
 评价指标的说明：
 **高ACC值** 表示模型能够精准地判断文学批评中的情感倾向。
