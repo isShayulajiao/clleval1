@@ -182,7 +182,7 @@ $$
 **MCC** 计算公式如下：
 
 $$
-\text{MCC} = \frac{\sum_{k=1}^{K} \sum_{l=1}^{K} \sum_{m=1}^{K} C_{kk} \cdot C_{lm} - C_{kl} \cdot C_{mk}}{\sqrt{\left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{kl}\right) \cdot \left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{lk}\right) \cdot \left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{kl}\right) \cdot \left(\sum_{k=1}^{K} \sum_{l=1}^{K} C_{lk}\right)}}
+\text{MCC} = \frac{ \sum_{i=1}^{K} \sum_{j=1}^{K} C_{ij} \cdot \left( \delta_{i,j} - \frac{C_{i+} \cdot C_{+j}}{N^2} \right) } {\sqrt{ \sum_{i=1}^{K} \sum_{j=1}^{K} (C_{i+} \cdot C_{+j}) \cdot \left( \sum_{i=1}^{K} \sum_{j=1}^{K} (C_{i+} \cdot C_{+j}) \right)}}
 $$
 
 **公式符号解释**
