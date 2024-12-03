@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6e488211-206a-47cf-8059-a3aebc42412e)# 2025 CCL25-CLEval  
+# 2025 CCL25-CLEval  
 # 面向中国文学领域的大语言模型性能评测基准
 
 <div>
