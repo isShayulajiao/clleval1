@@ -348,11 +348,11 @@ $$
 
 | Model                   | ACC     | Model                 | ACC     |
 |:-------------------------:|:---------:|:-----------------------:|:---------:|
-| bloomz-7b1             | 0.0053  | Baichuan-7B          | 0       |
-| Llama-2-7b-hf          | 0       | Baichuan2-7B-Base    | 0.001   |
-| Qwen-7B                | 0       | Xunzi-Qwen1.5-7B     | 0       |
-| Qwen1.5-7B             | 0.013   | internlm2-7b         | 0.0185  |
-| Llama-3-8B             | 0       | Qwen2-7B             | 0.038   |
+| bloomz-7b1             | 0.005  | Baichuan-7B          | 0.000       |
+| Llama-2-7b-hf          | 0.000       | Baichuan2-7B-Base    | 0.001   |
+| Qwen-7B                | 0.000       | Xunzi-Qwen1.5-7B     | 0.000       |
+| Qwen1.5-7B             | 0.013   | internlm2-7b         | 0.019  |
+| Llama-3-8B             | 0.000       | Qwen2-7B             | 0.038   |
 
 ---
 
