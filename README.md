@@ -96,21 +96,21 @@ CLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据�
 
 |  Data   |               Task               | Text Types |   Raw   | Instruction | Test  |  License   | Source |
 |:-------:|:--------------------------------:|:----------:|:-------:|:-----------:|:-----:|:----------:|:--------:|
-|   CritBias   |             现代文学批评倾向             |    现代文     |  1,014  |     141    |  141  |            |        |
-|   CritPred   |             现代文学批评挖掘             |    现代文     |  1,014  |     829     |  829  |            |        |
-|  ACLUE  |             古代文学知识理解             |    古代汉语     | 49,660  |   49,660    | 2,000 |    MIT     | [1]    |
-|   ReadCom   |              文学阅读理解              |    现代文     | 29,013  |   29,013    | 2,000 | CC-BY-SA-4.0 | [2]    |
-| LitNRE  |              文学语言理解              |    现代文     | 28,894  |   27,864    | 2,750 |   Public   | [3]    |
-| AuthIDE  |             文学作品风格预测             |    现代文     | 30,324  |   30,324    | 2,000 |   Public   | [4]    |
-|  ClaTrans   |             文学语言风格转换             |    古代汉语     | 972,467 |   972,467   | 2,000 |   MIT   | [5]    |
+|   CritBias   |             现代文学批评倾向             |    现代文     |  1,014  |     141    |  141  |        Apache    |    [1]    |
+|   CritPred   |             现代文学批评挖掘             |    现代文     |  1,014  |     829     |  829  |     Apache       |    [1]    |
+|  ACLUE  |             古代文学知识理解             |    古代汉语     | 49,660  |   49,660    | 2,000 |    MIT     | [2]    |
+|   ReadCom   |              文学阅读理解              |    现代文     | 29,013  |   29,013    | 2,000 | CC-BY-SA-4.0 | [3]    |
+| LitNRE  |              文学语言理解              |    现代文     | 28,894  |   27,864    | 2,750 |   Public   | [4]    |
+| AuthIDE  |             文学作品风格预测             |    现代文     | 30,324  |   30,324    | 2,000 |   Public   | [5]    |
+|  ClaTrans   |             文学语言风格转换             |    古代汉语     | 972,467 |   972,467   | 2,000 |   MIT   | [6]    |
 
 
-
-1. Zhang, Y., & Li, H. (2023). Can large language model comprehend ancient chinese? a preliminary test on aclue. arXiv preprint arXiv:2310.09550.
-2. Cui, Y., Liu, T., Chen, Z., Wang, S., & Hu, G. (2016). Consensus attention-based neural networks for Chinese reading comprehension. arXiv preprint arXiv:1607.02250.
-3. Xu, J., Wen, J., Sun, X., & Su, Q. (2017). A discourse-level named entity recognition and relation extraction dataset for chinese literature text. arXiv preprint arXiv:1711.07010.
-4. https://gitee.com/zhang-chen-peng/Chinese-Authorship-Identification-Dataset
-5. https://github.com/NiuTrans/Classical-Modern
+1.https://book.douban.com/subject/35694299/
+2. Zhang, Y., & Li, H. (2023). Can large language model comprehend ancient chinese? a preliminary test on aclue. arXiv preprint arXiv:2310.09550.
+3. Cui, Y., Liu, T., Chen, Z., Wang, S., & Hu, G. (2016). Consensus attention-based neural networks for Chinese reading comprehension. arXiv preprint arXiv:1607.02250.
+4. Xu, J., Wen, J., Sun, X., & Su, Q. (2017). A discourse-level named entity recognition and relation extraction dataset for chinese literature text. arXiv preprint arXiv:1711.07010.
+5. https://gitee.com/zhang-chen-peng/Chinese-Authorship-Identification-Dataset
+6. https://github.com/NiuTrans/Classical-Modern
 
 ### 2.1 现代文学批评倾向
 
