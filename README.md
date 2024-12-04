@@ -30,8 +30,8 @@
 * 王康，云南大学硕士研究生[![Email](https://img.shields.io/badge/Email-%F0%9F%93%A7-blue)](wangkang1@stu.ynu.edu.cn)
 
 ## 团队成员(云南大学)
-* 王情情
-* 于万龙
+* 研究生（王情情 、秦可、 陈雅婷、张群）
+* 本科生（于万龙、陈雅婷、吕思齐、曹雨涵）
 
 
 
