@@ -105,12 +105,12 @@ CLEval提供的7个数据集涵盖了不同类型和风格的中国文学数据�
 |  ClaTrans   |             文学语言风格转换             |    古代汉语     | 972,467 |   972,467   | 2,000 |   MIT   | [6]    |
 
 
-1.https://book.douban.com/subject/35694299/
-2. Zhang, Y., & Li, H. (2023). Can large language model comprehend ancient chinese? a preliminary test on aclue. arXiv preprint arXiv:2310.09550.
-3. Cui, Y., Liu, T., Chen, Z., Wang, S., & Hu, G. (2016). Consensus attention-based neural networks for Chinese reading comprehension. arXiv preprint arXiv:1607.02250.
-4. Xu, J., Wen, J., Sun, X., & Su, Q. (2017). A discourse-level named entity recognition and relation extraction dataset for chinese literature text. arXiv preprint arXiv:1711.07010.
-5. https://gitee.com/zhang-chen-peng/Chinese-Authorship-Identification-Dataset
-6. https://github.com/NiuTrans/Classical-Modern
+1.https://book.douban.com/subject/35694299/  
+2. Zhang, Y., & Li, H. (2023). Can large language model comprehend ancient chinese? a preliminary test on aclue. arXiv preprint arXiv:2310.09550.  
+3. Cui, Y., Liu, T., Chen, Z., Wang, S., & Hu, G. (2016). Consensus attention-based neural networks for Chinese reading comprehension. arXiv preprint arXiv:1607.02250.  
+4. Xu, J., Wen, J., Sun, X., & Su, Q. (2017). A discourse-level named entity recognition and relation extraction dataset for chinese literature text. arXiv preprint arXiv:1711.07010.  
+5. https://gitee.com/zhang-chen-peng/Chinese-Authorship-Identification-Dataset  
+6. https://github.com/NiuTrans/Classical-Modern  
 
 ### 2.1 现代文学批评倾向
 
