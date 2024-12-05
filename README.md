@@ -94,15 +94,22 @@
 CLEval提供的7个任务（现代文学批评倾向、现代文学批评挖掘、古代文学知识理解、文学阅读理解、文学语言理解、文学作品风格预测和文学语言风格转换）涵盖了不同类型和风格的中国文学数据，从现代文学批评到古代文学知识的多维度任务，这种多样化的数据集结构对大模型的评估带来了多重优势。不仅丰富了模型的训练和测试内容，涵盖了中国文学的特定文化背景和语言结构，使得大模型的评估结果更加精准，尤其是在语言的细粒度分析和风格迁移方面，而且通过包括文言文等语言结构复杂的文本，这些数据集能够测试大模型对古代汉语的处理能力。数据集的基本信息如下表所示：
 
 
+<style>
+  .small-text {
+    font-size: 10px;
+  }
+</style>
+
 | 构建方式  | 数据集名称   | 任务名称             | 文体类型 | 原始数量   | 指令集数量 | 测试集数量  | 版权   | 原始出处 | 
 |:--------|:-------:|:--------------------------------:|:----------:|:-------:|:-----------:|:-----:|:----------:|:--------:|
-|<small>人工录入</small>| <small>CritBias</small>   | <small>现代文学批评倾向</small>             | <small>现代文</small>     |  <small>1,014</small>  |     <small>141</small>    |  <small>141</small>  |        <small>Apache</small>    |    <small>[1]</small>    |
-|<small>人工录入</small>| <small>CritPred</small>   | <small>现代文学批评挖掘</small>             | <small>现代文</small>     |  <small>1,014</small>  |     <small>829</small>     |  <small>829</small>  |     <small>Apache</small>       |    <small>[1]</small>    |
-|<small>人工标注</small>| <small>ACLUE</small>  | <small>古代文学知识理解</small>             | <small>古代汉语</small>     | <small>49,660</small>  |   <small>49,660</small>    | <small>2,000</small> |    <small>MIT</small>     | <small>[2]</small>    |
-|<small>人工标注</small>| <small>ReadCom</small>   | <small>文学阅读理解</small>              | <small>现代文</small>     | <small>29,013</small>  |   <small>29,013</small>    | <small>2,000</small> | <small>CC-BY-SA-4.0</small> | <small>[3]</small>    |
-|<small>人工标注</small>| <small>LitNRE</small>  | <small>文学语言理解</small>              | <small>现代文</small>     | <small>28,894</small>  |   <small>27,864</small>    | <small>2,750</small> |   <small>Public</small>   | <small>[4]</small>    |
-|<small>人工标注</small>| <small>AuthIDE</small>  | <small>文学作品风格预测</small>             | <small>现代文</small>     | <small>30,324</small>  |   <small>30,324</small>    | <small>2,000</small> |   <small>Public</small>   | <small>[5]</small>    |
-|<small>人工标注</small>| <small>ClaTrans</small>   | <small>文学语言风格转换</small>             | <small>古代汉语</small>     | <small>972,467</small> |   <small>972,467</small>   | <small>2,000</small> |   <small>MIT</small>   | <small>[6]</small>    |
+| <span class="small-text">人工录入</span> | <span class="small-text">CritBias</span>   | <span class="small-text">现代文学批评倾向</span>             | <span class="small-text">现代文</span>     |  <span class="small-text">1,014</span>  |     <span class="small-text">141</span>    |  <span class="small-text">141</span>  |        <span class="small-text">Apache</span>    |    <span class="small-text">[1]</span>    |
+| <span class="small-text">人工录入</span> | <span class="small-text">CritPred</span>   | <span class="small-text">现代文学批评挖掘</span>             | <span class="small-text">现代文</span>     |  <span class="small-text">1,014</span>  |     <span class="small-text">829</span>     |  <span class="small-text">829</span>  |     <span class="small-text">Apache</span>       |    <span class="small-text">[1]</span>    |
+| <span class="small-text">人工标注</span> | <span class="small-text">ACLUE</span>  | <span class="small-text">古代文学知识理解</span>             | <span class="small-text">古代汉语</span>     | <span class="small-text">49,660</span>  |   <span class="small-text">49,660</span>    | <span class="small-text">2,000</span> |    <span class="small-text">MIT</span>     | <span class="small-text">[2]</span>    |
+| <span class="small-text">人工标注</span> | <span class="small-text">ReadCom</span>   | <span class="small-text">文学阅读理解</span>              | <span class="small-text">现代文</span>     | <span class="small-text">29,013</span>  |   <span class="small-text">29,013</span>    | <span class="small-text">2,000</span> | <span class="small-text">CC-BY-SA-4.0</span> | <span class="small-text">[3]</span>    |
+| <span class="small-text">人工标注</span> | <span class="small-text">LitNRE</span>  | <span class="small-text">文学语言理解</span>              | <span class="small-text">现代文</span>     | <span class="small-text">28,894</span>  |   <span class="small-text">27,864</span>    | <span class="small-text">2,750</span> |   <span class="small-text">Public</span>   | <span class="small-text">[4]</span>    |
+| <span class="small-text">人工标注</span> | <span class="small-text">AuthIDE</span>  | <span class="small-text">文学作品风格预测</span>             | <span class="small-text">现代文</span>     | <span class="small-text">30,324</span>  |   <span class="small-text">30,324</span>    | <span class="small-text">2,000</span> |   <span class="small-text">Public</span>   | <span class="small-text">[5]</span>    |
+| <span class="small-text">人工标注</span> | <span class="small-text">ClaTrans</span>   | <span class="small-text">文学语言风格转换</span>             | <span class="small-text">古代汉语</span>     | <span class="small-text">972,467</span> |   <span class="small-text">972,467</span>   | <span class="small-text">2,000</span> |   <span class="small-text">MIT</span>   | <span class="small-text">[6]</span>    |
+
 
 
 
