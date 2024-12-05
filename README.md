@@ -96,13 +96,14 @@ CLEval提供的7个任务（现代文学批评倾向、现代文学批评挖掘�
 
 | 构建方式  |  数据集名称   |               文学任务             | 文体类型 |   原始数量   | 指令集数量 | 测试集数量  |  版权   | 原始出处 | 
 |:--------|:-------:|:--------------------------------:|:----------:|:-------:|:-----------:|:-----:|:----------:|:--------:|
-|人工录入|   CritBias   |             现代文学批评倾向             |    现代文     |  1,014  |     141    |  141  |        Apache    |    [1]    |
-|人工录入|   CritPred   |             现代文学批评挖掘             |    现代文     |  1,014  |     829     |  829  |     Apache       |    [1]    |
-|人工标注|  ACLUE  |             古代文学知识理解             |    古代汉语     | 49,660  |   49,660    | 2,000 |    MIT     | [2]    |
-|人工标注|   ReadCom   |              文学阅读理解              |    现代文     | 29,013  |   29,013    | 2,000 | CC-BY-SA-4.0 | [3]    |
-|人工标注| LitNRE  |              文学语言理解              |    现代文     | 28,894  |   27,864    | 2,750 |   Public   | [4]    |
-|人工标注| AuthIDE  |             文学作品风格预测             |    现代文     | 30,324  |   30,324    | 2,000 |   Public   | [5]    |
-|人工标注|  ClaTrans   |             文学语言风格转换             |    古代汉语     | 972,467 |   972,467   | 2,000 |   MIT   | [6]    |
+|<small>人工录入</small>| <small>CritBias</small>   | <small>现代文学批评倾向</small>             | <small>现代文</small>     |  <small>1,014</small>  |     <small>141</small>    |  <small>141</small>  |        <small>Apache</small>    |    <small>[1]</small>    |
+|<small>人工录入</small>| <small>CritPred</small>   | <small>现代文学批评挖掘</small>             | <small>现代文</small>     |  <small>1,014</small>  |     <small>829</small>     |  <small>829</small>  |     <small>Apache</small>       |    <small>[1]</small>    |
+|<small>人工标注</small>| <small>ACLUE</small>  | <small>古代文学知识理解</small>             | <small>古代汉语</small>     | <small>49,660</small>  |   <small>49,660</small>    | <small>2,000</small> |    <small>MIT</small>     | <small>[2]</small>    |
+|<small>人工标注</small>| <small>ReadCom</small>   | <small>文学阅读理解</small>              | <small>现代文</small>     | <small>29,013</small>  |   <small>29,013</small>    | <small>2,000</small> | <small>CC-BY-SA-4.0</small> | <small>[3]</small>    |
+|<small>人工标注</small>| <small>LitNRE</small>  | <small>文学语言理解</small>              | <small>现代文</small>     | <small>28,894</small>  |   <small>27,864</small>    | <small>2,750</small> |   <small>Public</small>   | <small>[4]</small>    |
+|<small>人工标注</small>| <small>AuthIDE</small>  | <small>文学作品风格预测</small>             | <small>现代文</small>     | <small>30,324</small>  |   <small>30,324</small>    | <small>2,000</small> |   <small>Public</small>   | <small>[5]</small>    |
+|<small>人工标注</small>| <small>ClaTrans</small>   | <small>文学语言风格转换</small>             | <small>古代汉语</small>     | <small>972,467</small> |   <small>972,467</small>   | <small>2,000</small> |   <small>MIT</small>   | <small>[6]</small>    |
+
 
 
 1. 陈思广 (2021).中国现代长篇小说编年史（1922—1949), 武汉出版社.  
