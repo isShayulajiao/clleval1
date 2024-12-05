@@ -683,7 +683,9 @@ $$\text{任务得分} = \frac{\sum_{j=1}^{m} \text{指标得分}_j}{m}$$
 ---
 
 ## 7 算力赞助
-![Virtual Tech Logo](https://virtaitech.com/images/bg_compute.jpeg)
+
+<img src="https://virtaitech.com/images/bg_compute.jpeg" alt="Virual Tech Logo" height="50">
+
 
 ## 8 评测报名及语料申请
 
