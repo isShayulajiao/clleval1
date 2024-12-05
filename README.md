@@ -632,11 +632,13 @@ python eval.py \
 
 &emsp;&emsp;2025年8月：CCL 2025技术评测研讨会
 
-## 5.2 报告格式
+## 5.2 论文格式
 
-- 报告可由中文或英文撰写。
+- 论文可由中文或英文撰写，最多6页正文，参考文献页数不限。
 
-- 报告统一使用CCL 2025 的[论文模版](http://cips-cl.org/static/CCL2024/downloads/ccl2023_template.zip)。
+- 提交论文的格式统一使用CCL 2025 的[论文LaTex模版](http://cips-cl.org/static/CCL2024/downloads/ccl2023_template.zip)
+
+- 采用双盲审稿，不可出现作者姓名和单位的信息，不符合要求会被拒稿
 
 - 报告应至少包含以下四个部分：模型介绍、评测结果、结果分析与讨论和参考文献。
 
