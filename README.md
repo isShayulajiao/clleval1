@@ -737,3 +737,13 @@ $$\text{任务得分} = \frac{\sum_{j=1}^{m} \text{指标得分}_j}{m}$$
 
 2、中国现代长篇小说研究的集大成之作 [J]. 现代中国文化与文学, 2022, (03): 417-418.
 
+3、Xu L, Hu H, Zhang X, et al. CLUE: A Chinese language understanding evaluation benchmark[J]. arXiv preprint arXiv:2004.05986, 2020.
+
+4、Wang A, Singh A, Michael J, et al. GLUE: a multi-task benchmark and analysis platform for natural language understanding. CoRR abs/1804.07461 (2018)[J]. arXiv preprint arXiv:1804.07461, 2018.
+
+5、Huang J, Zhu H, Xu C, et al. AuditWen: An Open-Source Large Language Model for Audit[J]. arXiv preprint arXiv:2410.10873, 2024.
+
+6、Zhang X, Li B, Yang Q. CGCE: A Chinese Generative Chat Evaluation Benchmark for General and Financial Domains[J]. arXiv preprint arXiv:2305.14471, 2023.
+
+7、Xu L, Hu H, Zhang X, et al. CLUE: A Chinese language understanding evaluation benchmark[J]. arXiv preprint arXiv:2004.05986, 2020.
+
