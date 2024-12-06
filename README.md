@@ -1,5 +1,7 @@
-# 2025 CCL25-Eval-ZhengMing（争鸣） 
-# 面向中国文学垂直领域的大语言模型评测基准-争鸣
+<div style="display: flex; align-items: center; justify-content: center; height: 100px;">
+  # 2025 CCL25-Eval-ZhengMing（争鸣）<br>
+  # 面向中国文学垂直领域的大语言模型评测基准-争鸣
+</div>
 
 <div>
 <div align="left">
