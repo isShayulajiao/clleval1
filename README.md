@@ -1,20 +1,20 @@
 # <p align="center"> 2025 CCL25-Eval-ZhengMing（争鸣）</p>
 <div align="center">
-<img src='https://iili.io/2GnhKsp.png' alt='ZhengMing Logo' height='200px'>
+<img src='[https://iili.io/2GnhKsp.png](https://iili.io/2Gn6ZhB.png)' alt='ZhengMing Logo' height='200px'>
 </div>
  
 # <p align="center"><font size=50><strong>面向中国文学垂直领域的大语言模型评测基准-争鸣</strong></font></p>
 
 
 <div>
-<div align="left">
+<div align="center">
 &nbsp;&nbsp;云南大学&emsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;武汉大学&emsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;四川大学&emsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;云南师范大学&emsp;
 </div>
 </div>
-<div align="left">
+<div align="center">
     <img src='https://i.postimg.cc/DfB8jxV1/ynu.png' alt='Yunnan University Logo' height='80px'>
     &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images -->
     <img src='https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png' alt='Wuhan University Logo' height='80px'>
