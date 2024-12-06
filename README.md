@@ -1,6 +1,6 @@
 # <p align="center"> 2025 CCL25-Eval-ZhengMing（争鸣）</p>
 <div align="center">
-<img src='https://iili.io/2Gn6ZhB.png' alt='ZhengMing Logo' height='200px'>
+<img src='https://iili.io/2Gn6ZhB.png' alt='ZhengMing Logo' height='150px'>
 </div>
  
 # <p align="center"><font size=50><strong>面向中国文学垂直领域的大语言模型评测基准-争鸣</strong></font></p>
