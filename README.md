@@ -739,11 +739,15 @@ $$\text{任务得分} = \frac{\sum_{j=1}^{m} \text{指标得分}_j}{m}$$
 
 3、Xu L, Hu H, Zhang X, et al. CLUE: A Chinese language understanding evaluation benchmark[J]. arXiv preprint arXiv:2004.05986, 2020.
 
-4、Wang A, Singh A, Michael J, et al. GLUE: a multi-task benchmark and analysis platform for natural language understanding. CoRR abs/1804.07461 (2018)[J]. arXiv preprint arXiv:1804.07461, 2018.
+4、Wang A, Singh A, Michael J, et al. GLUE: a multi-task benchmark and analysis platform for natural language understanding. arXiv preprint arXiv:1804.07461, 2018.
 
 5、Huang J, Zhu H, Xu C, et al. AuditWen: An Open-Source Large Language Model for Audit[J]. arXiv preprint arXiv:2410.10873, 2024.
 
 6、Zhang X, Li B, Yang Q. CGCE: A Chinese Generative Chat Evaluation Benchmark for General and Financial Domains[J]. arXiv preprint arXiv:2305.14471, 2023.
 
 7、Xu L, Hu H, Zhang X, et al. CLUE: A Chinese language understanding evaluation benchmark[J]. arXiv preprint arXiv:2004.05986, 2020.
+
+8、Bandarkar L, Liang D, Muller B, et al. The belebele benchmark: a parallel reading comprehension dataset in 122 language variants[J]. arXiv preprint arXiv:2308.16884, 2023.
+
+9、Fei Z, Shen X, Zhu D, et al. Lawbench: Benchmarking legal knowledge of large language models[J]. arXiv preprint arXiv:2309.16289, 2023.
 
