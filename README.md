@@ -1,5 +1,5 @@
-# 2025 CCL25-CLEval  
-# 面向中国文学垂直领域的大语言模型评测基准
+# 2025 CCL25-EVal-ZhengMing（争鸣） 
+# 面向中国文学垂直领域的大语言模型评测基准-ZhengMing
 
 <div>
 <div align="left">
