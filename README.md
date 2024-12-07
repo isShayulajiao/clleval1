@@ -160,7 +160,7 @@ CLEval提供的7个任务（现代文学批评倾向、现代文学批评挖掘�
 ### 评价标准
 
 #### 评价指标
-对于**现代文学批评倾向**的评测任务，我们采用了`` 准确率 (ACC)、F1 Score、Macro F1 和 MCC（(Matthews Correlation Coefficient）[56] ``来全面评估模型的表现。以下是对这些指标的详细说明：  
+对于**现代文学批评倾向**的评测任务，我们采用了`` 准确率 (ACC)、F1 Score、Macro F1 和 MCC（(Matthews Correlation Coefficient）``来全面评估模型的表现。以下是对这些指标的详细说明：  
 
 #### **准确率 (ACC)** 
 **准确率 (ACC)** 通过计算预测正确的样本占总样本的比率来测量模型的文本分类效果
