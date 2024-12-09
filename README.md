@@ -1,4 +1,4 @@
-# <p align="center"> 2025 CCL25-CLEval-ZhengMing（争鸣）</p>
+# <p align="center"> CCL25-Eval-CLEval-ZhengMing（争鸣）</p>
 <div align="center">
 <img src='https://iili.io/2Gn6ZhB.png' alt='ZhengMing Logo' height='150px'>
 </div>
