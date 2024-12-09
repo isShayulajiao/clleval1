@@ -80,19 +80,6 @@
 
 * 为了进一步提升大模型在中国文学语言分析方面的能力，并增强其在细粒度评估上的表现，我们精心构建了七个高质量的数据集。这些数据集不仅覆盖了丰富的文学文本类型，还涉及了多种语言理解任务，旨在推动大模型对中国文学语言的深度理解与精准分析。通过这些数据集的引入，我们期望能够在语言结构、文化内涵和文学风格等方面实现模型的全面提升，从而为中文自然语言处理领域的发展作出贡献。
 
-
-
-**评测数据集** :
-
-- [CLEval (CLEval_CritBias)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
-- [CLEval_(CLEval_CritPred)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
-- [CLEval (CLEval_ACLUE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
-- [CLEval (CLEval_ReadCom)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
-- [CLEval (CLEval_LitNRE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
-- [CLEval (CLEval_AuthIDE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
-- [CLEval (CLEval_ClaTrans)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
-
-
 ---
 
 ## 2 任务介绍
