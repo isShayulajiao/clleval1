@@ -84,7 +84,7 @@
 
 ## 2 任务介绍
 
-CLEval-ZhengMing提供的7个任务（现代文学批评倾向、现代文学批评挖掘、古代文学知识理解、文学阅读理解、文学语言理解、文学作品风格预测和文学语言风格转换）涵盖了不同类型和风格的中国文学数据，从现代文学批评到古代文学知识的多维度任务，这种多样化的数据集结构对大模型的评估带来了多重优势。不仅丰富了模型的训练和测试内容，涵盖了中国文学的特定文化背景和语言结构，使得大模型的评估结果更加精准，尤其是在语言的细粒度分析和风格迁移方面，而且通过包括文言文等语言结构复杂的文本，这些数据集能够测试大模型对古代汉语的处理能力。
+ZhengMing评测基准提供的7个任务（现代文学批评倾向、现代文学批评挖掘、古代文学知识理解、文学阅读理解、文学语言理解、文学作品风格预测和文学语言风格转换）涵盖了不同类型和风格的中国文学数据，从现代文学批评到古代文学知识的多维度任务，这种多样化的数据集结构对大模型的评估带来了多重优势。不仅丰富了模型的训练和测试内容，涵盖了中国文学的特定文化背景和语言结构，使得大模型的评估结果更加精准，尤其是在语言的细粒度分析和风格迁移方面，而且通过包括文言文等语言结构复杂的文本，这些数据集能够测试大模型对古代汉语的处理能力。
 
 数据集介绍：
 
@@ -566,7 +566,7 @@ $$
 
 #### 本地部署
 ```bash
-git clone https://github.com/isShayulajiao/CCL25-CLEval.git
+git clone https://github.com/isShayulajiao/CCL25-ZhengMing.git
 cd CLEval
 pip install -r requirements.txt
 cd CLEval/src/literature-evaluation
@@ -659,7 +659,7 @@ python eval.py \
 
 ## 6 结果提交
 
-参赛队伍在测试集上参与评测，结果集使用CLEval-ZhengMing评测框架最终生成的数据格式。
+参赛队伍在测试集上参与评测，结果集使用ZhengMing评测框架最终生成的数据格式。
 
 提交的压缩包命名为**队伍名称+result.zip**，其中包含七个任务的预测文件以及两个excel指标文件。  
   
@@ -676,7 +676,7 @@ metrics_Avg.xlsx
 1. 七个任务的预测文件需严格命名为CritBias.json、CritPred.json、ACLUE.json、ReadCom.json、LitNRE.json、AuthIDE.json和ClaTrans.json。  
 2. 请严格使用**队伍名称+result.zip**对CritBias.json、CritPred.json、ACLUE.json、ReadCom.json、LitNRE.json、AuthIDE.json、ClaTrans.json、metrics.xlsx和metrics_Avg.xlsx进行压缩，即要求解压后的文件不能存在中间目录。 选⼿可以只提交部分任务的结果，如只提交“现代文学批评倾向”任务，未预测任务的分数默认为0。  
 3. metrics.xlsx和metrics_Avg.xlsx文件填写示例，请在[这里](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)下载
-本次评测结果集采用邮件方式进行提交。参赛队伍负责人以**队伍名称 + CCL2025-CLEval2025结果提交**为邮件标题，将结果文件直接发送到 **wangkang1@stu.ynu.edu.cn**，以提交时间截止前您的最后一次提交结果为准。
+本次评测结果集采用邮件方式进行提交。参赛队伍负责人以**队伍名称 + CCL2025-ZhengMing结果提交**为邮件标题，将结果文件直接发送到 **wangkang1@stu.ynu.edu.cn**，以提交时间截止前您的最后一次提交结果为准。
 
 ### 排名
 
