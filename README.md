@@ -707,7 +707,7 @@ $$\text{任务得分} = \frac{\sum_{j=1}^{m} \text{指标得分}_j}{m}$$
 
 ## 8 评测报名及语料申请
 
-点击报名链接填写报名表 https://f.wps.cn/g/BYw3bQEo/ 进行报名，我们会发送邮件确认您已经参赛。本次评测提供的[语料库](https://platform.virtaicloud.com/gemini_web/workspace/space/mvhjwl5mani0/data/detail/521118369756405760)、[CLEval-ZhengMing评测代码](https://platform.virtaicloud.com/gemini_web/workspace/space/mvhjwl5mani0/project/495430078126346240/code)以及[评测环境](https://platform.virtaicloud.com/gemini_web/workspace/space/mvhjwl5mani0/image/detail/38997)我们均放置在驱动科技平台上，请参赛队伍需自行向评测联系人申请本次评测语料使用权，并签署保密协议。  
+点击报名链接填写报名表 https://f.wps.cn/g/BYw3bQEo/ 进行报名，我们会发送邮件确认您已经参赛。本次评测提供的[语料库](https://platform.virtaicloud.com/gemini_web/workspace/space/mvhjwl5mani0/data/detail/521118369756405760)、[CLEval-ZhengMing评测代码](https://platform.virtaicloud.com/gemini_web/workspace/space/mvhjwl5mani0/project/495430078126346240/code)以及[评测环境](https://platform.virtaicloud.com/gemini_web/workspace/space/mvhjwl5mani0/image/detail/38997)我们均放置在驱动科技平台上。  
 
 参赛队伍联系负责人需填写本次评测语料的[使用权协议](https://platform.virtaicloud.com/gemini_web/workspace/space/mvhjwl5mani0/image/detail/38997)，并签署保密协议不可用于商业用途，扫描后通过邮件发送至wangkang1@stu.ynu.edu.cn。   
 
