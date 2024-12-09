@@ -567,9 +567,9 @@ $$
 #### 本地部署
 ```bash
 git clone https://github.com/isShayulajiao/CCL25-ZhengMing.git
-cd CLEval
+cd ZhengMing
 pip install -r requirements.txt
-cd CLEval/src/literature-evaluation
+cd ZhengMing/src/literature-evaluation
 pip install -e .[multilingual]
 ```
 
@@ -589,11 +589,11 @@ pip install -e .[multilingual]
 ```bash
 python src/eval.py \
     --model hf-causal-vllm \
-    --tasks flare_CritBias \
+    --tasks ZM_CritBias \
     --model_args use_accelerate=True,pretrained=baichuan-inc/Baichuan2-7B-Base,tokenizer=baichuan-inc/Baichuan2-7B-Base,max_gen_toks=1024,use_fast=False,dtype=float16,trust_remote_code=True 
 ```
 * 若您的模型存放在本地，`` pretrained ``和`` tokenizer ``应该填写模型存放在本地的地址。
-* 评测文学语言风格转换任务时，`` max_gen_toks ``建议设置成`` 20 ``；评测现代文学批评挖掘、文学阅读理解和文学语言理解这三个任务时，`` max_gen_toks ``建议设置成`` 200 ``。
+* 评测文学语言风格转换任务时，`` max_gen_toks ``设置成`` 20 ``；评测现代文学批评挖掘、文学阅读理解和文学语言理解这三个任务时，`` max_gen_toks ``设置成`` 200 ``。
 
 
 常见模型使用的`` model ``参数如下表所示（一般hf-causal-vllm都能支持）:
@@ -614,7 +614,7 @@ python src/eval.py \
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
 python eval.py \
     --model gpt-3.5-turbo \
-    --tasks CLEval_aclue,CLEval_authide,CLEval_critpred
+    --tasks ZM_aclue,ZM_authide,ZM_critpred
 ```
 
 ---
