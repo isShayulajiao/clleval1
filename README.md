@@ -566,7 +566,7 @@ $$
 
 #### 本地部署
 ```bash
-git clone https://github.com/isShayulajiao/CCL25-ZhengMing.git
+git clone https://github.com/isShayulajiao/CCL25-Eval-ZhengMing.git
 cd ZhengMing
 pip install -r requirements.txt
 cd ZhengMing/src/literature-evaluation
