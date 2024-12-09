@@ -113,12 +113,12 @@ CLEval-ZhengMing提供的7个任务（现代文学批评倾向、现代文学批
 
 
 
-1. 陈思广 (2021).中国现代长篇小说编年史（1922—1949), 武汉出版社.  
-2. Zhang, Y., & Li, H. (2023). Can large language model comprehend ancient chinese? a preliminary test on aclue. arXiv preprint arXiv:2310.09550.  
-3. Cui, Y., Liu, T., Chen, Z., Wang, S., & Hu, G. (2016). Consensus attention-based neural networks for Chinese reading comprehension. arXiv preprint arXiv:1607.02250.  
-4. Xu, J., Wen, J., Sun, X., & Su, Q. (2017). A discourse-level named entity recognition and relation extraction dataset for chinese literature text. arXiv preprint arXiv:1711.07010.  
-5. https://gitee.com/zhang-chen-peng/Chinese-Authorship-Identification-Dataset  
-6. https://github.com/NiuTrans/Classical-Modern  
+[1] 陈思广 (2021).中国现代长篇小说编年史（1922—1949), 武汉出版社.  
+[2] Zhang, Y., & Li, H. (2023). Can large language model comprehend ancient chinese? a preliminary test on aclue. arXiv preprint arXiv:2310.09550.  
+[3] Cui, Y., Liu, T., Chen, Z., Wang, S., & Hu, G. (2016). Consensus attention-based neural networks for Chinese reading comprehension. arXiv preprint arXiv:1607.02250.  
+[4] Xu, J., Wen, J., Sun, X., & Su, Q. (2017). A discourse-level named entity recognition and relation extraction dataset for chinese literature text. arXiv preprint arXiv:1711.07010.  
+[5] https://gitee.com/zhang-chen-peng/Chinese-Authorship-Identification-Dataset  
+[6] https://github.com/NiuTrans/Classical-Modern  
 
 ### 2.1 现代文学批评倾向
 
