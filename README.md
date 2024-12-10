@@ -124,7 +124,7 @@ ZhengMing评测基准提供的七个任务（包括现代文学批评倾向、�
 
 该任务的内容来源于现代报刊中的文学评论文章（纸质原稿来源于“近代报纸数据库”、“全国报刊索引数据库”、“大公报”、“申报”、“大成故纸堆数据库”、“民国图书数据库”等珍贵的馆藏资源数据库)，由四川大学陈思广教授团队于2004年开始历经20余年精心标注而成。首先，从民国时期的多个主流报刊中挑选了涵盖不同文学流派、风格的作品的批评文献，以确保数据的多样性和代表性。所涉及的文学作品包括经典名著、当代畅销书籍以及重要文学事件的评论，广泛覆盖了各类文学作品。因为民国时期报刊中文字存在破损和污染的情况，数据采集团队对相关评论进行了手动录入、校对和整理 (见如下图示），确保每条数据的准确性。所有摘录的评价都经过精确标注，并进行了必要的格式化处理，以便后续研究使用。通过这一精细的采集和整理过程，先期根据批评文章的节选内容构建了部分语料并出版了《中国现代长篇小说编年史（1922-1949）》，最终构建了一个系统且富有深度的中国现当代文学批评史料-中国现代长篇小说批评文献数据库，共计400万余字。 “中国现代长篇小说批评文献数据库”详细考察了中国现代长篇小说的流变特质,深入探究了中国现代长篇小说在不同历史时段的创作风貌与接受样态，为现当代文学评论的实证研究提供了宝贵的资源。
 
-![现代文学评价](Literary_Criticism.jpg)
+![现代文学评价](static/Literary_Criticism.jpg)
 
 随着战争的历史进程，批评话语的变迁是否与战争史同步？随着历史语境的不断变化，批评话语呈现出怎样的演进轨迹？面向现代文学实证研究的需要，我们基于中国现代长篇小说批评文献数据库构建了两个文学评价数据集：现代文学批评倾向(CritBias)和现代文学批评挖掘(CritPred)。对于现代文学批评倾向和现代文学批评挖掘这两个任务，ZhengMing只提供了测试集作为此次任务的域外数据集，用来评估模型在新任务和领域中的准确性和鲁棒性以及模型的泛化能力。
 
@@ -675,7 +675,7 @@ metrics.xlsx
 metrics_Avg.xlsx  
 1. 七个任务的预测文件需严格命名为CritBias.json、CritPred.json、ACLUE.json、ReadCom.json、LitNRE.json、AuthIDE.json和ClaTrans.json。  
 2. 请严格使用**队伍名称+result.zip**对CritBias.json、CritPred.json、ACLUE.json、ReadCom.json、LitNRE.json、AuthIDE.json、ClaTrans.json、metrics.xlsx和metrics_Avg.xlsx进行压缩，即要求解压后的文件不能存在中间目录。 选⼿可以只提交部分任务的结果，如只提交“现代文学批评倾向”任务，未预测任务的分数默认为0。  
-3. metrics.xlsx和metrics_Avg.xlsx文件填写示例，请在[这里](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download)下载
+3. metrics.xlsx和metrics_Avg.xlsx文件填写示例，请在[这里](https://github.com/isShayulajiao/CCL25-Eval-ZhengMing/tree/main/static)下载
 本次评测结果集采用邮件方式进行提交。参赛队伍负责人以**队伍名称 + CCL2025-ZhengMing结果提交**为邮件标题，将结果文件直接发送到 **wangkang1@stu.ynu.edu.cn**，以提交时间截止前您的最后一次提交结果为准。
 
 ### 排名
