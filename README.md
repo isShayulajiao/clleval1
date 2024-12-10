@@ -709,7 +709,7 @@ $$\text{任务得分} = \frac{\sum_{j=1}^{m} \text{指标得分}_j}{m}$$
 
 点击报名链接填写报名表 https://f.wps.cn/g/BYw3bQEo/ 进行报名，我们会发送邮件确认您已经参赛。本次评测提供的**ZhengMing评测基准**的[语料](https://platform.virtaicloud.com/gemini_web/workspace/space/mvhjwl5mani0/data/detail/521118369756405760)、[代码](https://platform.virtaicloud.com/gemini_web/workspace/space/mvhjwl5mani0/project/495430078126346240/code)以及[镜像环境](https://platform.virtaicloud.com/gemini_web/workspace/space/mvhjwl5mani0/image/detail/38997)均放置在**驱动云**AI训练平台上。  
 
-参赛队伍联系负责人需填写本次评测语料的[使用权协议](https://github.com/isShayulajiao/CCL25-Eval-ZhengMing/blob/main/static/%E4%BD%BF%E7%94%A8%E6%9D%83%E5%8D%8F%E8%AE%AE.pdf)，并签署使用权协议不可用于商业用途，扫描后通过邮件发送至wangkang1@stu.ynu.edu.cn。   
+参赛队伍联系负责人需填写本次评测语料的[使用权协议](https://github.com/isShayulajiao/CCL25-Eval-ZhengMing/blob/main/static/%E4%BD%BF%E7%94%A8%E6%9D%83%E5%8D%8F%E8%AE%AE.pdf)，并签署使用权协议不可用于商业用途，扫描后通过邮件发送至评测联系人王康（wangkang1@stu.ynu.edu.cn）。   
 
 ---
 
