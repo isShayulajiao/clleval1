@@ -1,9 +1,0 @@
-[submodule "src/literature-evaluation"]
-	path = src/literature-evaluation
-	url = https://github.com/chancefocus/financial-evaluation.git
-[submodule "src/metrics/BARTScore"]
-	path = src/metrics/BARTScore
-	url = https://github.com/neulab/BARTScore.git
-[submodule "FinMem-LLM-StockTrading"]
-	path = FinMem-LLM-StockTrading
-	url = https://github.com/pipiku915/FinMem-LLM-StockTrading.git
