@@ -567,9 +567,9 @@ $$
 #### 本地部署
 ```bash
 git clone https://github.com/isShayulajiao/CCL25-Eval-ZhengMing.git
-cd ZhengMing
+cd CCL25-Eval-ZhengMing
 pip install -r requirements.txt
-cd ZhengMing/src/literature-evaluation
+cd CCL25-Eval-ZhengMing/src/literature-evaluation
 pip install -e .[multilingual]
 ```
 
