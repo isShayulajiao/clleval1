@@ -567,11 +567,11 @@ $$
 #### 本地部署
 ```bash
 git clone https://github.com/isShayulajiao/CCL25-Eval-ZhengMing.git
-cd CCL25-Eval-ZhengMing/src/literature-evaluation
-pip install -e .[multilingual]
-cd ../..
+cd CCL25-Eval-ZhengMing
 conda env create -f environment.yml
-
+conda env activate zhengming_environment
+cd src/literature-evaluation
+pip install -e .[multilingual]
 ```
 
 
