@@ -606,7 +606,7 @@ pip install -e .[multilingual]
 ```bash
 python src/eval.py \
     --model hf-causal-vllm \
-    --tasks ZM_CritBias \
+    --tasks ZM_critbias \
     --model_args use_accelerate=True,pretrained=baichuan-inc/Baichuan2-7B-Base,tokenizer=baichuan-inc/Baichuan2-7B-Base,max_gen_toks=1024,use_fast=False,dtype=float16,trust_remote_code=True 
 ```
 * 若您的模型存放在本地，`` pretrained ``和`` tokenizer ``应该填写模型存放在本地的地址。
