@@ -135,7 +135,7 @@ ZhengMing（百家争鸣，争鸣）评测基准提供的七个任务（包括�
 ### 数据样例
 现代文学批评倾向评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data")](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data")](https://github.com/isShayulajiao/CCL25-Eval-ZhengMing/blob/main/static/CritBias_sample.jpg)
 ![现代文学批评挖掘](static/CritBias_sample.jpg)
 
 #### 数据说明
@@ -267,7 +267,7 @@ $$
 #### 数据样例
 现代文学批评挖掘评测任务提供了一个JSON格式的数据集。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/isShayulajiao/CCL25-Eval-ZhengMing/blob/main/static/CritPred_sample.jpg)
 ![现代文学批评挖掘任务数据（CritPred）样例](static/CritPred_sample.jpg)
 
 #### 数据说明
@@ -355,7 +355,7 @@ $$
 ### 数据样例
 该任务提供了一个JSON格式的数据集，其中每个条目都包含一个id（数据标识符）、text（输入文本）、query（任务提示及输入文本）、answer（正确答案）。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/isShayulajiao/CCL25-Eval-ZhengMing/blob/main/static/ReadCom_sample.jpg)
 ![现代文学阅读理解（ReadCom）数据样例](static/ReadCom_sample.jpg)
 
 ### 评价指标
@@ -393,7 +393,7 @@ $$
 ### 数据样例
 该任务提供了一个JSON格式的数据集，其中每条数据都包含一个id（数据标识符）、text（文学文本）、query（任务提示及输入文本）、answer（正确答案）及label（每个单词或短语分配的标签，用来标识其类别或类型。）。以下为相应的数据样例：
 
-[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/GoThereGit/Chinese-AMR/blob/main/CAMRP%202022/docs/samples/CAMR_tuple.txt)
+[![sample](https://img.shields.io/badge/sample-CLEval_data-red.svg "CLEval_data") ](https://github.com/isShayulajiao/CCL25-Eval-ZhengMing/blob/main/static/LitNRE_sample.jpg)
 ![文学语言理解（LitNRE）数据样例](static/LitNRE_sample.jpg)
 
 ### 评价标准
