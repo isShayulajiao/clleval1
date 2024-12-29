@@ -546,7 +546,7 @@ $$
 | 古代文学知识理解            | ACLUE    | 2,000 | ACC, F1, Macro F1, mcc           |
 | 文学阅读理解                | ReadCom      | 2,000 | EM                               |
 | 文学语言理解                | LitNRE   | 2,750 | Entity F1                         |
-| 文学作品风格预测            | AuthIDE   | 2,000 | ACC, F1, macro-F1, MCC           |
+| 文学作品风格预测            | AuthIDE   | 2,000 | ACC, F1, Macro F1, MCC           |
 | 文学语言风格转换            | ClaTrans     | 2,000 | BERTScore-F1, BARTScore          |
 
 
