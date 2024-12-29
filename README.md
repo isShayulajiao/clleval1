@@ -596,7 +596,7 @@ pip install -e .[multilingual]
 
 对于自动化评测，请观看以下操作提示：
 
-1. Huggingface Transformer
+1. 导入HuggingFace上模型（建议国内采用镜像https://hf-mirror.com/）
 
    若要评估托管在 HuggingFace Hub 上的模型（例如，Baichuan2-7B-Base），请使用以下命令：
 
