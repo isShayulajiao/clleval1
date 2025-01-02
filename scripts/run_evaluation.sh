@@ -1,5 +1,5 @@
 ZhengMing_path='/root/ZhengMing'
-export PYTHONPATH="$CLLLM_path/src:$CLLLM_path/src/literature-evaluation:$CLLLM_path/src/metrics/BARTScore"
+export PYTHONPATH="$ZhengMing_path/src:$ZhengMing_path/src/literature-evaluation:$ZhengMing_path/src/metrics/BARTScore"
 echo $PYTHONPATH
 export CUDA_VISIBLE_DEVICES="0"
 
