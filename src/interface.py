@@ -149,7 +149,7 @@ if __name__ == "__main__":
                 label="Output",
             )
         ],
-        title="FinMA: Financial Large Language Model",
+        title=" ",
     ).queue().launch(
         share=True, server_name="0.0.0.0", server_port=args.base_port
     )
