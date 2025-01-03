@@ -6,26 +6,7 @@
 # <p align="center"><font size=50><strong>面向中国文学领域的大语言模型评测基准-争鸣</strong></font></p>
 
 
-<div align="center">
-    <div style="display: flex; justify-content: center; align-items: center;">
-        <div style="margin: 0 10px; text-align: center;">
-            <img src="https://i.postimg.cc/DfB8jxV1/ynu.png" alt="Yunnan University Logo" height="90px">
-            <p style="margin: 0;">云南大学</p>
-        </div>
-        <div style="margin: 0 10px; text-align: center;">
-            <img src="https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png" alt="Wuhan University Logo" height="90px">
-            <p style="margin: 0;">武汉大学</p>
-        </div>
-        <div style="margin: 0 10px; text-align: center;">
-            <img src="https://i.postimg.cc/NjKhDkGY/DFAF986-CCD6529-E52-D7830-F180-D-C37-C7-DEE-4340.png" alt="Sichuan University Logo" height="90px">
-            <p style="margin: 0;">四川大学</p>
-        </div>
-        <div style="margin: 0 10px; text-align: center;">
-            <img src="https://i.postimg.cc/kX4TspD1/ynnormal.png" alt="Yunan Normal University Logo" height="90px">
-            <p style="margin: 0;">云南师范大学</p>
-        </div>
-    </div>
-</div>
+<div> <div align="center"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;云南大学&emsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;武汉大学&emsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;四川大学&emsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;云南师范大学&emsp; </div> </div> <div align="center"> <img src='https://i.postimg.cc/DfB8jxV1/ynu.png' alt='Yunnan University Logo' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png' alt='Wuhan University Logo' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://i.postimg.cc/NjKhDkGY/DFAF986-CCD6529-E52-D7830-F180-D-C37-C7-DEE-4340.png' alt='Sichuan University Logo' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://i.postimg.cc/kX4TspD1/ynnormal.png' alt='Yunan Normal University Logo' height='90px'> </div>
 
 
 
