@@ -15,28 +15,6 @@
 </div> 
 <div align="center"> <img src='https://i.postimg.cc/DfB8jxV1/ynu.png' alt='Yunnan University Logo' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png' alt='Wuhan University Logo' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://i.postimg.cc/NjKhDkGY/DFAF986-CCD6529-E52-D7830-F180-D-C37-C7-DEE-4340.png' alt='Sichuan University Logo' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://i.postimg.cc/kX4TspD1/ynnormal.png' alt='Yunan Normal University Logo' height='90px'> </div>
 
-<div align="center">
-    <table style="border-collapse: collapse; width: 80%;" cellspacing="0" cellpadding="10">
-        <tr>
-            <td align="center">
-                <p>云南大学</p>
-                <img src="https://i.postimg.cc/DfB8jxV1/ynu.png" alt="Yunnan University Logo" height="90px">
-            </td>
-            <td align="center">
-                <p>武汉大学</p>
-                <img src="https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png" alt="Wuhan University Logo" height="90px">
-            </td>
-            <td align="center">
-                <p>四川大学</p>
-                <img src="https://i.postimg.cc/NjKhDkGY/DFAF986-CCD6529-E52-D7830-F180-D-C37-C7-DEE-4340.png" alt="Sichuan University Logo" height="90px">
-            </td>
-            <td align="center">
-                <p>云南师范大学</p>
-                <img src="https://i.postimg.cc/kX4TspD1/ynnormal.png" alt="Yunan Normal University Logo" height="90px">
-            </td>
-        </tr>
-    </table>
-</div>
 
 ## 评测组织者
 * 胡刚，云南大学信息学院（研究方向，跨语言智能信息处理）[![Email](https://img.shields.io/badge/Email-%F0%9F%93%A7-blue)](mailto:hugang@ynu.edu.cn)
