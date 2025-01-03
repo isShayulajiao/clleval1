@@ -16,6 +16,58 @@
 <div align="center"> <img src='https://i.postimg.cc/DfB8jxV1/ynu.png' alt='Yunnan University Logo' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png' alt='Wuhan University Logo' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://i.postimg.cc/NjKhDkGY/DFAF986-CCD6529-E52-D7830-F180-D-C37-C7-DEE-4340.png' alt='Sichuan University Logo' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://i.postimg.cc/kX4TspD1/ynnormal.png' alt='Yunan Normal University Logo' height='90px'> </div>
 
 
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>图片和文字居中</title>
+  <style>
+    /* 父容器：使用 Flexbox */
+    .container {
+      display: flex;
+      flex-direction: column; /* 垂直排列 */
+      align-items: center; /* 水平居中 */
+      justify-content: center; /* 垂直居中 */
+      height: 100vh; /* 使容器占满整个视口 */
+      text-align: center; /* 文字居中 */
+    }
+    
+    .text-row {
+      margin-bottom: 20px; /* 文字和图片之间的间距 */
+    }
+    
+    .images-row {
+      display: flex; /* 水平排列图片 */
+      justify-content: center; /* 水平居中图片 */
+      gap: 20px; /* 图片之间的间距 */
+    }
+    
+    .images-row img {
+      height: 90px; /* 设置图片高度 */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- 文字行 -->
+    <div class="text-row">
+      <span>云南大学</span>&emsp;
+      <span>武汉大学</span>&emsp;
+      <span>四川大学</span>&emsp;
+      <span>云南师范大学</span>
+    </div>
+
+    <!-- 图片行 -->
+    <div class="images-row">
+      <img src="https://i.postimg.cc/DfB8jxV1/ynu.png" alt="Yunnan University Logo">
+      <img src="https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png" alt="Wuhan University Logo">
+      <img src="https://i.postimg.cc/NjKhDkGY/DFAF986-CCD6529-E52-D7830-F180-D-C37-C7-DEE-4340.png" alt="Sichuan University Logo">
+      <img src="https://i.postimg.cc/kX4TspD1/ynnormal.png" alt="Yunan Normal University Logo">
+    </div>
+  </div>
+</body>
+</html>
+
 ## 评测组织者
 * 胡刚，云南大学信息学院（研究方向，跨语言智能信息处理）[![Email](https://img.shields.io/badge/Email-%F0%9F%93%A7-blue)](mailto:hugang@ynu.edu.cn)
 * 岳昆，云南大学信息学院（云南省智能系统与计算重点实验室主任）
